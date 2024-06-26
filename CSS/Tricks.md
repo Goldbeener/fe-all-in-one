@@ -61,7 +61,7 @@ flex-shrink：1
 
 
 因为css规范，默认给 **flex容器的子元素（非滚动元素）** 设置了`min-width: auto`
-意味着flex容器的子元素宽度不能小于内容的宽度，所以flex-shrink没有生效
+意味着flex容器的子元素宽度`不能小于内容的宽度`，所以flex-shrink没有生效
 
 可以通过覆盖设置`min-width: 0` 解决这个问题
 

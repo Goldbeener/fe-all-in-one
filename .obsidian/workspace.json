@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "网络/状态码.md",
+                "file": "CSS/Tricks.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "网络/状态码.md",
+                "file": "CSS/Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "网络/状态码.md",
+                "file": "CSS/Tricks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "网络/状态码.md"
+                "file": "CSS/Tricks.md"
               }
             }
           }
@@ -160,19 +160,19 @@
   },
   "active": "7704df4e448b6adc",
   "lastOpenFiles": [
-    "CSS/Tricks.md",
-    "浏览器机制/无障碍.md",
-    "CSS",
-    "浏览器机制/移动端适配.md",
     "异步操作处理/await.md",
+    "浏览器机制/资源加载顺序以及是否相互阻塞.md",
     "TS/Zen of TS.md",
+    "浏览器机制/无障碍.md",
+    "浏览器机制/移动端适配.md",
+    "CSS/Tricks.md",
     "网络/状态码.md",
+    "CSS",
     "网络",
     "0mgs/phone_calc.png",
     "0mgs",
     "imgs/Pasted image 20240526113238.png",
     "imgs",
-    "浏览器机制/资源加载顺序以及是否相互阻塞.md",
     "TS",
     "浏览器机制",
     "异步操作处理"
