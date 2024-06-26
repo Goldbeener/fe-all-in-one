@@ -1,0 +1,11 @@
+{
+  "blue-topaz-theme@@background-image-settings-switch": true,
+  "blue-topaz-theme@@background-notebook-liked-switch": true,
+  "blue-topaz-theme@@bg-markdown-page-opacity-cp": 0.25,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-sublime",
+  "blue-topaz-theme@@accent-strong@@light": "#AB1717",
+  "blue-topaz-theme@@accent-strong@@dark": "#E72D10",
+  "Blue-Topaz-Codebox-Highlight@@background-code-2@@dark": "#7DDD090A",
+  "Blue-Topaz-Codebox-Highlight@@text-color-code@@dark": "#27D00C"
+}

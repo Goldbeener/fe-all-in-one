@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "f910b8ea2b54d6e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bb759df0082d76d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebdb3af36058598f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "浏览器机制/移动端适配.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7704df4e448b6adc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "网络/状态码.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3d80e8144b5c8ac9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9196fe0c4ac17154",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb08df46a16b2f33",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b200f5c3f30964a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac3541918723b735",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 247.5
+  },
+  "right": {
+    "id": "347e992ea18bc7cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fcb8c9cb78d7200",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "352ad90875dff68a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "网络/状态码.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bbede9f6a19de52d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "网络/状态码.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfc7230879baabf1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aa6cc2c1a94880a7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "网络/状态码.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "7704df4e448b6adc",
+  "lastOpenFiles": [
+    "CSS/Tricks.md",
+    "浏览器机制/无障碍.md",
+    "CSS",
+    "浏览器机制/移动端适配.md",
+    "异步操作处理/await.md",
+    "TS/Zen of TS.md",
+    "网络/状态码.md",
+    "网络",
+    "0mgs/phone_calc.png",
+    "0mgs",
+    "imgs/Pasted image 20240526113238.png",
+    "imgs",
+    "浏览器机制/资源加载顺序以及是否相互阻塞.md",
+    "TS",
+    "浏览器机制",
+    "异步操作处理"
+  ]
+}
