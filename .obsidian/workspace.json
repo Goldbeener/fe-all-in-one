@@ -30,19 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8de4771a00e9426c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +158,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8de4771a00e9426c",
+  "active": "7704df4e448b6adc",
   "lastOpenFiles": [
     "异步操作处理/await.md",
     "浏览器机制/资源加载顺序以及是否相互阻塞.md",
