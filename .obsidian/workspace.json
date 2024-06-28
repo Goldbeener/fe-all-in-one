@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Tricks.md",
+                "file": "JS/继承.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/Tricks.md",
+                "file": "JS/继承.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/Tricks.md",
+                "file": "JS/继承.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Tricks.md"
+                "file": "JS/继承.md"
               }
             }
           }
@@ -160,12 +160,14 @@
   },
   "active": "7704df4e448b6adc",
   "lastOpenFiles": [
+    "CSS/Tricks.md",
+    "JS/继承.md",
+    "JS",
     "异步操作处理/await.md",
     "浏览器机制/资源加载顺序以及是否相互阻塞.md",
     "TS/Zen of TS.md",
     "浏览器机制/无障碍.md",
     "浏览器机制/移动端适配.md",
-    "CSS/Tricks.md",
     "网络/状态码.md",
     "CSS",
     "网络",
