@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/二进制/未命名.md",
+                "file": "JS/二进制/createObjectURL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/二进制/未命名.md",
+                "file": "JS/二进制/createObjectURL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/二进制/未命名.md",
+                "file": "JS/二进制/createObjectURL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/二进制/未命名.md"
+                "file": "JS/二进制/createObjectURL.md"
               }
             }
           }
@@ -161,7 +161,7 @@
   "active": "7704df4e448b6adc",
   "lastOpenFiles": [
     "JS/继承.md",
-    "JS/二进制/未命名.md",
+    "JS/二进制/createObjectURL.md",
     "JS/二进制",
     "CSS/Tricks.md",
     "JS",
