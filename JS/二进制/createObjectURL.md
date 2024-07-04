@@ -1,5 +1,5 @@
 
-createObjectURL()
+createObjectURL(File / Blob / MediaSource)
 生成一个临时对象，存储在内存中，由浏览器管理
 
 由浏览器生成一个临时对象，存在浏览器的内存中，在生命周期内，浏览器能通过返回值字符串，访问这个对象。
