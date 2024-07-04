@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/继承.md",
+                "file": "JS/二进制/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/继承.md",
+                "file": "JS/二进制/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/继承.md",
+                "file": "JS/二进制/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/继承.md"
+                "file": "JS/二进制/未命名.md"
               }
             }
           }
@@ -160,8 +160,10 @@
   },
   "active": "7704df4e448b6adc",
   "lastOpenFiles": [
-    "CSS/Tricks.md",
     "JS/继承.md",
+    "JS/二进制/未命名.md",
+    "JS/二进制",
+    "CSS/Tricks.md",
     "JS",
     "异步操作处理/await.md",
     "浏览器机制/资源加载顺序以及是否相互阻塞.md",
