@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "可视化/3D/threejs.md",
+                "file": "可视化/3D/three.js.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "可视化/3D/threejs.md",
+                "file": "可视化/3D/three.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "可视化/3D/threejs.md",
+                "file": "可视化/3D/three.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "可视化/3D/threejs.md"
+                "file": "可视化/3D/three.js.md"
               }
             }
           }
@@ -162,7 +162,7 @@
   "lastOpenFiles": [
     "可视化/3D",
     "JS/二进制/createObjectURL.md",
-    "可视化/3D/threejs.md",
+    "可视化/3D/three.js.md",
     "可视化",
     "JS/继承.md",
     "JS/二进制",
