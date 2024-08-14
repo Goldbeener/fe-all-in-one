@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TS/Zen of TS.md",
+                "file": "可视化/3D/three.js.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TS/Zen of TS.md",
+                "file": "可视化/3D/three.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TS/Zen of TS.md",
+                "file": "可视化/3D/three.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TS/Zen of TS.md"
+                "file": "可视化/3D/three.js.md"
               }
             }
           }
@@ -147,8 +147,8 @@
   },
   "active": "bbb54a89767f037e",
   "lastOpenFiles": [
-    "TS/类型操作.md",
     "TS/Zen of TS.md",
+    "TS/类型操作.md",
     "可视化/3D/three.js.md",
     "可视化/3D",
     "JS/二进制/createObjectURL.md",
