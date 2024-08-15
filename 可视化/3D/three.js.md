@@ -29,4 +29,6 @@
 
 
 文字
-1. DOM + CSS
+1. DOM + CSS，定位，添加在threejs中
+2. 将文字绘制到canvas画布中，并将其用作texture纹理
+3. 
