@@ -28,6 +28,12 @@
 
 
 
+
+
+摄像机是用来观察和渲染场景的
+透视摄像机
+![[Pasted image 20240816165610.png]]
+
 文字
 1. DOM + CSS，定位，添加在threejs中
 2. 将文字绘制到canvas画布中，并将其用作texture纹理
