@@ -146,13 +146,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "352ad90875dff68a",
+  "active": "bbb54a89767f037e",
   "lastOpenFiles": [
+    "浏览器机制/资源加载顺序以及是否相互阻塞.md",
+    "浏览器机制/移动端适配.md",
+    "JS/二进制/createObjectURL.md",
     "浏览器机制/无障碍.md",
     "TS/Zen of TS.md",
     "TS/类型操作.md",
     "JS/继承.md",
-    "JS/二进制/createObjectURL.md",
     "CSS/Tricks.md",
     "可视化/3D/three.js.md",
     "0mgs/Pasted image 20240816165610.png",
@@ -161,8 +163,6 @@
     "JS/二进制",
     "JS",
     "异步操作处理/await.md",
-    "浏览器机制/资源加载顺序以及是否相互阻塞.md",
-    "浏览器机制/移动端适配.md",
     "网络/状态码.md",
     "CSS",
     "网络",
