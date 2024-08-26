@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,7 +146,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bbb54a89767f037e",
+  "active": "352ad90875dff68a",
   "lastOpenFiles": [
     "浏览器机制/无障碍.md",
     "TS/Zen of TS.md",
