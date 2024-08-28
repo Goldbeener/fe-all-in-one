@@ -8,5 +8,7 @@
   "blue-topaz-theme@@accent-strong@@dark": "#E6DB74",
   "Blue-Topaz-Codebox-Highlight@@background-code-2@@dark": "#7DDD090A",
   "Blue-Topaz-Codebox-Highlight@@text-color-code@@dark": "#27D00C",
-  "floating-toc-styles@@toggle-floating-toc-header-color": false
+  "floating-toc-styles@@toggle-floating-toc-header-color": false,
+  "floating-toc-styles@@floating-toc-font-color@@dark": "#00FFFF",
+  "floating-toc-styles@@floating-toc-font-size": 1
 }
