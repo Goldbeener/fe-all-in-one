@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "浏览器机制/像素相关.md",
+                "file": "浏览器机制/移动端适配.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "浏览器机制/像素相关.md",
+                "file": "浏览器机制/移动端适配.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "浏览器机制/像素相关.md",
+                "file": "浏览器机制/移动端适配.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "浏览器机制/像素相关.md"
+                "file": "浏览器机制/移动端适配.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "bbb54a89767f037e",
   "lastOpenFiles": [
-    "浏览器机制/移动端适配.md",
     "浏览器机制/像素相关.md",
+    "浏览器机制/移动端适配.md",
     "0mgs/Pasted image 20240826212344.png",
     "0mgs/Pasted image 20240826212318.png",
     "浏览器机制/资源加载顺序以及是否相互阻塞.md",
