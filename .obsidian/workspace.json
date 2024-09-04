@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "异步操作处理/await.md",
+                "file": "异步操作处理/竞态问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "异步操作处理/await.md",
+                "file": "异步操作处理/竞态问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "异步操作处理/await.md",
+                "file": "异步操作处理/竞态问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "异步操作处理/await.md"
+                "file": "异步操作处理/竞态问题.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "bbb54a89767f037e",
   "lastOpenFiles": [
+    "异步操作处理/await.md",
+    "异步操作处理/竞态问题.md",
     "GIT/inside .git.md",
     "0mgs/Pasted image 20240903103554.png",
     "浏览器机制/资源加载顺序以及是否相互阻塞.md",
@@ -168,7 +170,6 @@
     "可视化",
     "JS/二进制",
     "JS",
-    "异步操作处理/await.md",
     "网络/状态码.md",
     "CSS",
     "网络",
