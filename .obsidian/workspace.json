@@ -22,15 +22,15 @@
             }
           },
           {
-            "id": "acbc2b38db744174",
+            "id": "73de7c132d489bef",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.7.6"
+                "currentVersion": "1.7.7"
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
+              "title": "Release Notes 1.7.7"
             }
           }
         ],
@@ -175,7 +175,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "acbc2b38db744174",
+  "active": "73de7c132d489bef",
   "lastOpenFiles": [
     "异步操作处理/竞态问题.md",
     "异步操作处理/await.md",
