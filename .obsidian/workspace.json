@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TS/类型操作.md",
+                "file": "GIT/Reset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "类型操作"
+              "title": "Reset"
             }
           }
         ]
@@ -164,9 +164,11 @@
   },
   "active": "bbb54a89767f037e",
   "lastOpenFiles": [
+    "GIT/inside .git.md",
+    "GIT/Reset.md",
+    "TS/类型操作.md",
     "异步操作处理/竞态问题.md",
     "异步操作处理/await.md",
-    "GIT/inside .git.md",
     "0mgs/Pasted image 20240903103554.png",
     "浏览器机制/资源加载顺序以及是否相互阻塞.md",
     "GIT",
@@ -177,7 +179,6 @@
     "JS/二进制/createObjectURL.md",
     "浏览器机制/无障碍.md",
     "TS/Zen of TS.md",
-    "TS/类型操作.md",
     "JS/继承.md",
     "CSS/Tricks.md",
     "可视化/3D/three.js.md",
