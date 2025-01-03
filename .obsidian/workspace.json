@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT/Reset.md",
+                "file": "异步操作处理/await.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reset"
+              "title": "await"
             }
           }
         ]
@@ -164,8 +164,8 @@
   },
   "active": "bbb54a89767f037e",
   "lastOpenFiles": [
-    "GIT/inside .git.md",
     "GIT/Reset.md",
+    "GIT/inside .git.md",
     "TS/类型操作.md",
     "异步操作处理/竞态问题.md",
     "异步操作处理/await.md",
