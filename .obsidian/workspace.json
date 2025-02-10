@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "异步操作处理/await.md",
+                "file": "工程化/notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "await"
+              "title": "notes"
             }
           }
         ]
@@ -164,11 +164,13 @@
   },
   "active": "bbb54a89767f037e",
   "lastOpenFiles": [
+    "异步操作处理/await.md",
+    "工程化/notes.md",
+    "工程化",
     "GIT/Reset.md",
     "GIT/inside .git.md",
     "TS/类型操作.md",
     "异步操作处理/竞态问题.md",
-    "异步操作处理/await.md",
     "0mgs/Pasted image 20240903103554.png",
     "浏览器机制/资源加载顺序以及是否相互阻塞.md",
     "GIT",
@@ -193,7 +195,6 @@
     "0mgs/phone_calc.png",
     "0mgs",
     "imgs/Pasted image 20240526113238.png",
-    "imgs",
-    "TS"
+    "imgs"
   ]
 }
