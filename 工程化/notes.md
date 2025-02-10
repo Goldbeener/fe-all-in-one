@@ -10,4 +10,4 @@
 受SPA影响的同构方法，相同的代码可以同时在客户端和服务端运行
 
 
-受MPA影响的分层执行，Islands架构 和 服务器组件 Web Componnent
+受MPA影响的分层执行，Islands架构 和 服务器组件 Web Component
