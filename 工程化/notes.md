@@ -7,6 +7,7 @@
 类型检查、Linting、Tree Shaking、代码拆分、压缩、同构、宏（Macros）、领域特定语言（DSLs）、单体开发/分布式部署等
 
 
-受SPA影响的同构方法
+受SPA影响的同构方法，相同的代码可以同时在客户端和服务端运行
 
 
+受MPA影响的分层执行，Islands架构 和 服务器组件 Web CO m p
