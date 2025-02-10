@@ -4,4 +4,6 @@
 编译和打包成为现代JavaScript应用的核心构建方式，同时也是JavaScript工具链复杂性的根源
 
 编译的好处是巨大的：
-类型检查、Linting、Tree Shakein
+类型检查、Linting、Tree Shaking、代码拆分、压缩、同构、宏（Macros）、领域特定语言（DSLs）、单体开发/分布式部署等
+
+
