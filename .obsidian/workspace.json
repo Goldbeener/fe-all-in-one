@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 248.5
   },
   "right": {
     "id": "347e992ea18bc7cc",
@@ -162,7 +162,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bbb54a89767f037e",
+  "active": "fb08df46a16b2f33",
   "lastOpenFiles": [
     "异步操作处理/await.md",
     "工程化/notes.md",
