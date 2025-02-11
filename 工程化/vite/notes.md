@@ -32,8 +32,13 @@ Vite的HMR是在原生ESM上执行的，
 源码模块会使用304协商缓存
 
 **开发环境和生产环境区别**
-开发环境，esbuild + ESM
+开发环境，ESBuild + ESM
+生产环境，使用rollup打包输出产物
 
+
+Vite组成
+一个开发服务器
+一套构建指令
 
 开发期间vite是一个服务器，index.html 是vite项目的入口文件，因此index.html
 是在项目根目录下
