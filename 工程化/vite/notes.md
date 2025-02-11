@@ -55,5 +55,12 @@ Vite组成
 
 
 功能
-+ npm依赖解析和yu
++ npm依赖解析和预构建
++ 模块热替换
++ ts支持，仅转译，不校验
++ HTML处理，会作为应用的一部分进行处理和打包，也就是修改html内容
++ vue文件支持
++ JSX/TSX  开箱即用，但是vue项目需要额外加上 `@vitejs/plugin-vue-jsx` 插件
++ CSS
++ 
 
