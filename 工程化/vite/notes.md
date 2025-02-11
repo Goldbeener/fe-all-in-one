@@ -42,8 +42,13 @@ Vite组成
 
 生产构建，默认情况下目标浏览器支持原生ES模块、原生ESM动态导入、import.meta、nullish coalescing、BigInt
 
+
+
 开发期间vite是一个服务器，index.html 是vite项目的入口文件，因此index.html
 是在项目根目录下
+
+根目录
+入口文件、vite配置所在
 
 
 
