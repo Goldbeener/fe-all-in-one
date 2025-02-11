@@ -30,5 +30,7 @@ Staged --- git commit. --- Unmodified
 Staged --- git restore --staged --- Modified
 
 
-
+工作区
+暂存区
+HEAD
 
