@@ -62,5 +62,8 @@ Vite组成
 + vue文件支持
 + JSX/TSX  开箱即用，但是vue项目需要额外加上 `@vitejs/plugin-vue-jsx` 插件
 + CSS
++ PostCSS
++ CSS Modules
++ CSS 预处理器
 + 
 
