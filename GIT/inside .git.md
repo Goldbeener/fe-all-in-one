@@ -24,5 +24,11 @@ Staged
 
 UnTracked ---  git add . --- Staged
 Modified --- git add .  --- Staged
-Modified --- git restore . 
+Modified --- git restore .  --- Unmodified
+Unmodified --- edit  --- Modified
+Staged --- git commit. --- Unmodified
+Staged --- git restore --staged --- Modified
+
+
+
 
