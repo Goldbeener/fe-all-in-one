@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工程化/vite/notes.md",
+                "file": "工程化/notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -165,8 +165,8 @@
   },
   "active": "bbb54a89767f037e",
   "lastOpenFiles": [
-    "GIT/inside .git.md",
     "工程化/vite/notes.md",
+    "GIT/inside .git.md",
     "工程化/vite",
     "未命名",
     "0mgs/Pasted image 20240903103554.png",
