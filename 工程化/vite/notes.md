@@ -144,3 +144,13 @@ base
 
 高级基础路径
 入口文件、静态资源可能想要部署在不同的路径，以便设置不同的缓存策略
+
+
+**环境变量和模式**
+
+内置常量
+import.meta.env.MODE
+import.meta.env.BASE_URL
+import.meta.env.PROD
+import.meta.env.DEV
+import.meta.env.SSR
