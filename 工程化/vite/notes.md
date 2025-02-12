@@ -116,3 +116,9 @@ Monorepo和链接依赖
 + 显式内联处理
 + 将资源引入为字符串
 + 导入脚本作为Worker
++ public目录
++ new URL + import.meta.url
+	+ 通过字符串模版支持动态URL
+
+**构建生产版本**
+
