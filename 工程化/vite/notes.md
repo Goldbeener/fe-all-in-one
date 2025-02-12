@@ -122,3 +122,11 @@ Monorepo和链接依赖
 
 **构建生产版本**
 
+默认构建产物，chrome >= 87
+
+`@vitejs/plugin-legacy `
+包含语法转译和polyfill
+
+
+
+公共基础路径
