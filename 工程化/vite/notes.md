@@ -155,9 +155,10 @@ import.meta.env.PROD
 import.meta.env.DEV
 import.meta.env.SSR
 
-环境变量
-VITE_SOME_KEY
+环境变量 env相关文件提供的信息
++ VITE_SOME_KEY
++ .env文件 使用及优先级
++ HTML环境变量替换
++ 环境变量的zhi nneg
 
-.env文件
-
-HTML环境变量替换
+模式
