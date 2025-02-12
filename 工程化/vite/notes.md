@@ -154,3 +154,8 @@ import.meta.env.BASE_URL
 import.meta.env.PROD
 import.meta.env.DEV
 import.meta.env.SSR
+
+环境变量
+VITE_SOME_KEY
+
+.env文件
