@@ -169,4 +169,4 @@ import.meta.env.SSR
 NODE_ENV  process.env.NODE_ENV
 
 
-process.env.NODE_ENV 和 mo de
++ [ ] process.env.NODE_ENV 和 mode 在Vite中的使用场景？
