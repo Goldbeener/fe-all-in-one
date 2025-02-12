@@ -68,7 +68,9 @@ Vite组成
 + Lightning CSS
 + 静态资源处理
 + JSON
-+ Glob
++ Glob 导入
++ 动态导入
++ WebAssembly
 
 
 css预处理器
