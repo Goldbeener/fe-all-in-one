@@ -65,7 +65,10 @@ Vite组成
 + PostCSS
 + CSS Modules
 + CSS 预处理器
-+ ## Lightning CSS
++ Lightning CSS
++ 静态资源处理
++ JSON
++ Glob
 
 
 css预处理器
