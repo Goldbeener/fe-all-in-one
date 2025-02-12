@@ -73,7 +73,10 @@ index.html 是vite项目的入口文件，
 + Lightning CSS
 + 静态资源处理
 + JSON
+	+ 整个对象导入
+	+ 根字段具名导入
 + Glob 导入
+	+ 多模块批量导入
 + 动态导入
 + WebAssembly
 + Web Workers
@@ -84,7 +87,7 @@ css modules
 PostCSS 
 三者的关系以及作用，是否可以搭配使用，以及在整个编译周期所处的位置和前后顺序
 
-**构建优化**
+### 构建优化
 默认请款下开箱即用，不要显式配置，除非需要禁用
 + 代码分割
 + 预加载指令生成
@@ -98,6 +101,12 @@ PostCSS
 + 按需应用，可以使用apply属性指明，仅在开发或生产调用
 
 - [ ] 创建一个自定义插件
+
+### 命令行接口
+CLI命令
++ vite
++ vite build
++ vite preview
 
 
 **依赖预构建**
