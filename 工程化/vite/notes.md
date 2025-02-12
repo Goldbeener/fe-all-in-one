@@ -159,3 +159,5 @@ import.meta.env.SSR
 VITE_SOME_KEY
 
 .env文件
+
+HTML环境变量替换
