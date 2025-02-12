@@ -159,6 +159,14 @@ import.meta.env.SSR
 + VITE_SOME_KEY
 + .env文件 使用及优先级
 + HTML环境变量替换
-+ 环境变量的zhi nneg
++ 环境变量的智能提示
 
 模式
+--mode  xxx 
+影响的是  import.meta.env.MODE 的值
+
+
+NODE_ENV  process.env.NODE_ENV
+
+
+process.env.NODE_ENV 和 mo de
