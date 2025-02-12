@@ -71,9 +71,15 @@ Vite组成
 + Glob 导入
 + 动态导入
 + WebAssembly
-
++ Web Workers
++ CSP
 
 css预处理器
 css modules
 PostCSS 
 三者的关系以及作用，是否可以搭配使用，以及在整个编译周期所处的位置和前后顺序
+
+构建优化
+默认请款下开箱即用，不要显式配置，除非需要禁用
++ 代码分割
++ 
