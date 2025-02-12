@@ -94,14 +94,6 @@ PostCSS
 + 异步chunk加载优化
 
 
-插件
-插件默认在vite核心插件之后调用该插件，
-默认在开发和生产模式下都会调用
-+ 强制插件排序  可以使用enforce指明插件调用时机
-+ 按需应用，可以使用apply属性指明，仅在开发或生产调用
-
-- [ ] 创建一个自定义插件
-
 ### 命令行接口
 CLI命令
 + vite
@@ -145,7 +137,8 @@ Monorepo和链接依赖
 
 公共基础路径
 base 配置
-影响静态资源产物路径
+影响静态资源产物路径覆写
+
 
 相对基础路径
 
@@ -162,25 +155,25 @@ base 配置
 入口文件、静态资源可能想要部署在不同的路径，以便设置不同的缓存策略
 
 
-**环境变量和模式**
+### 环境变量和模式
 
-内置常量
+**内置常量**
 import.meta.env.MODE
 import.meta.env.BASE_URL
 import.meta.env.PROD
 import.meta.env.DEV
 import.meta.env.SSR
 
-环境变量 env相关文件提供的信息
+**环境变量** 
+env相关文件提供的信息
 + VITE_SOME_KEY
 + .env文件 使用及优先级
 + HTML环境变量替换
 + 环境变量的智能提示
 
-模式
+**模式**
 --mode  xxx 
 影响的是  import.meta.env.MODE 的值
-
 
 NODE_ENV  process.env.NODE_ENV
 
@@ -188,3 +181,9 @@ NODE_ENV  process.env.NODE_ENV
 + [ ] process.env.NODE_ENV 和 mode 在Vite中的使用场景？
 
 ## 插件
+插件默认在vite核心插件之后调用该插件，
+默认在开发和生产模式下都会调用
++ 强制插件排序  可以使用enforce指明插件调用时机
++ 按需应用，可以使用apply属性指明，仅在开发或生产调用
+
+- [ ] 创建一个自定义插件
