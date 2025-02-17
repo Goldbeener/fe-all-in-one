@@ -18,3 +18,13 @@
 受MPA影响的分层执行，Islands架构 和 服务器组件 Web Component
 
 
+
++ parser
++ transformer
++ resolver
++ linter
++ formatter
++ minifier
++ bundler
++ test runner
++ meta framework support
