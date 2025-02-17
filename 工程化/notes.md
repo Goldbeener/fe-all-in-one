@@ -18,6 +18,7 @@
 受MPA影响的分层执行，Islands架构 和 服务器组件 Web Component
 
 
+bundler 打包器，把这些步骤聚合在一块
 
 + parser
 + transformer
@@ -28,3 +29,9 @@
 + bundler
 + test runner
 + meta framework support
+
+
+作用：
+1. 减少网络请求和瀑布流请求
+2. 减少产物体积
+3. 提高js的运行性能
