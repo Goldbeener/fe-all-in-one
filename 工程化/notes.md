@@ -23,7 +23,7 @@ bundler 打包器，把这些步骤聚合在一块
 + parser
 	+ 把代码解析成AST
 + transformer
-	+ 修改AST，进行代码转换，输出另一种
+	+ 修改AST，进行代码转换，输出另一种形式的代码
 + resolver
 + linter
 + formatter
