@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,7 +179,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6c44f1beebe5c30a",
+  "active": "b200f5c3f30964a2",
   "lastOpenFiles": [
     "工程化/vite/notes.md",
     "GIT/inside .git.md",
