@@ -119,7 +119,12 @@ type NonNullable<T> = T extends null | undefined ? never : T
 // NonNullable<null | 1 | 2>
 // 1 | 2
 
+// 提取函数的参数类型
 type Parameters<T extends (...args: any) => any> = T extends (...args: infer P) => any ? P : never
 // Parameters<(a: string, b: number) => Promise<string>>
 // [string, number]
+
+// 提取函数的返回值类型
+type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any
+// Returnt
 ```
