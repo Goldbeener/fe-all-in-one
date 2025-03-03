@@ -15,9 +15,11 @@ TS类型系统表现出非常明显的编程语言特性
 ## 语法
 
 ### 声明
-声明类型结构： `interface`  描述静态类型shu
+声明类型结构： `interface`  描述静态类型<数据>结构
 
-声明类型：`type`
+声明类型：`type` 描述类型之间的计算关系
+
+> 有点类似Vue中，状态和计算属性的关系
 
 ```js
 interface Point {
@@ -26,7 +28,9 @@ interface Point {
 }
 
 type Points = Point & { z: number } // 计算确切结果
-type Intersect<P, Q> = Pick<P, keyof P & keyof Q> // 描述计算过程，类似函数
+
+// 描述计算过程，类似函数 计算输入的两个类型之间的共有属性
+type Intersect<P, Q> = Pick<P, keyof P & keyof Q> 
 ```
 
 
