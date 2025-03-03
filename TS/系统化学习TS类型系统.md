@@ -51,7 +51,16 @@ type GenArr<
 	Arr extends any[] = []
 > = Arr["length"] extends N ? Arr : GenArr<N, [...Arr, 1]>;
 
-type ThreeItemArr = GenArr<3> // [1, 1, 1] 
+type ThreeItemArr = GenArr<3> // [1, 1, 1] 指定长度的元组，每一项都是1
 
 ```
 
+拓展，创建指定长度、指定类型的元组
+
+```js
+type GenArr<
+	N extends number,
+	T,
+	Arr extends any[] = []
+> = A
+```
