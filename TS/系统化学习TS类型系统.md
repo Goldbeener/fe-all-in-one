@@ -135,5 +135,11 @@ type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => i
 ```js
 type Curr<Args, R> = Args extends [infer First, ...infer Rest] ? (arg: First) => Curr<Rest, R> : R
 
-de
+declare function curry<Fn extends (...args: any[]) => any> (fn: Fn): Fn extends (...args: infer Args) => infer R ? Curr<Args, R> : never
+
+function add(a: number, bL number): number {
+	reurn a + b
+}
+const curryAdd =  curry(add)
+curryAdd(1)(2)
 ```
