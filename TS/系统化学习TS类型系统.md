@@ -62,5 +62,17 @@ type GenArr<
 	N extends number,
 	T,
 	Arr extends any[] = []
-> = A
+> = Arr["length"] extends N ? Arr : GenArr<N, T, [...Arr, T]>
+```
+
+### 标准库
+标准库是以语言自身基础能力实现的通用工具函数
+
+```js
+type Partial<T> = {
+	[P in keyof T]?: T[P]
+}
+// Partial<{ x: string}>
+// {x?: string}
+
 ```
