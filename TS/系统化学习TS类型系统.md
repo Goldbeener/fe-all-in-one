@@ -34,6 +34,12 @@ type Intersect<P, Q> = Pick<P, keyof P & keyof Q>
 ```
 
 
-### 条件fen
+### 条件分支
+```js
+declare function distance<P extends Point>(p1: P, p2: P): number
+
+declare function promisify<T>(p: T): T extends Promise<any> ? T : Promise<T>
+```
 
 
+### 递归
