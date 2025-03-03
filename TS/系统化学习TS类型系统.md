@@ -153,8 +153,9 @@ type GetReadonlyKeys<T> = {
 	[P in keyof T]-?: Equal<
 		{ [O in P]: T[P] },
 		{ -readonly [O in P] : T[P] }
-	> extends true ? never P
+	> extends true ? never : P
 }[keyof T]
 
-GetReadonlyKeys<{ readonly x?: strin}>
+GetReadonlyKeys<{ readonly x?: string, y: string, readonly z: number}>
+// "x" | "z"
 ```
