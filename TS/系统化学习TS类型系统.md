@@ -15,8 +15,19 @@ TS类型系统表现出非常明显的编程语言特性
 ## 语法
 
 ### 声明
-声明类型结构interface
-声明类型
+声明类型结构： `interface`  描述静态类型shu
 
-type
+声明类型：`type`
+
+```js
+interface Point {
+	x: number
+	y: number
+}
+
+type Points = Point & { z: number } // 计算确切结果
+type Intersect<P, Q> = Pick<P, keyof P & keyof Q> // 描述计算过程，类似函数
+```
+
+
 
