@@ -92,5 +92,18 @@ type Readonly<T> = {
 // { readonly x: string }
 
 type Exclude<T, U> = T extends U ? never : T
-// Exclude
+// Exclude<"a" | "b" | "c", "a">
+// "b" | "c"
+
+type Extract<T, U> = T extends U ? T : never;
+// Exclude<"a" | "b" | "c", "a">
+// "a"
+
+type Pick<T, k extends keyof T> = {
+	[P in K]: T[p]
+}
+// Pick<{ x: string, y: number }, "x">
+// { x: string }
+
+
 ```
