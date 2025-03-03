@@ -43,3 +43,13 @@ declare function promisify<T>(p: T): T extends Promise<any> ? T : Promise<T>
 
 
 ### 递归
+循环不是编程语言的必要语法，循环的应用场景可以被递归替代
+
+```js
+type GenArr<
+	N extends number,
+	Arr extends any[] = []
+> = Arr["length"] extends N ? Arr : GenArr<N, [...Arr, 1]>;
+
+type ThreeItemArr = GenArr<3>
+```
