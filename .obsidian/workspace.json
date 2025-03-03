@@ -181,6 +181,7 @@
   "active": "6c44f1beebe5c30a",
   "lastOpenFiles": [
     "TS/类型操作.md",
+    "TS/Zen of TS.md",
     "CSS/Flex.md",
     "CSS/Tricks.md",
     "浏览器机制/像素相关.md",
@@ -202,7 +203,6 @@
     "浏览器机制/移动端适配.md",
     "JS/二进制/createObjectURL.md",
     "浏览器机制/无障碍.md",
-    "TS/Zen of TS.md",
     "JS/继承.md",
     "可视化/3D/three.js.md",
     "可视化/3D",
