@@ -9,8 +9,10 @@ TS类型系统表现出非常明显的编程语言特性
 + 类型：boolean、number、string、null、undefined、unknow、any、never
 + 运算符： &、｜ 、...
 + 声明：type、interface、declare
-+ 其他：readonly、keyof、extends、infer、？、-？
++ 其他：readonly、keyof、extends、infer、？、-？、+？
 
+-？ 用于移除在TS interface 或 type中的可选标记？； 确保属性在新类型中是必选的
++？ 用于z
 
 ## 语法
 
@@ -73,6 +75,12 @@ type Partial<T> = {
 	[P in keyof T]?: T[P]
 }
 // Partial<{ x: string}>
-// {x?: string}
+// { x?: string }
 
+
+type Required<T> = {
+	[P in keyof T]-?: T[P]
+}
+// Required<{ x?: string }>
+// { x: string }
 ```
