@@ -126,5 +126,14 @@ type Parameters<T extends (...args: any) => any> = T extends (...args: infer P) 
 
 // 提取函数的返回值类型
 type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any
-// Returnt
+// ReturnType<(a: string, b: number) => Promise<string>>
+// Promise<string>
+```
+
+
+### 练习
+```js
+type Curr<Args, R> = Args extends [infer First, ...infer Rest] ? (arg: First) => Curr<Rest, R> : R
+
+de
 ```
