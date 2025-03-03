@@ -119,5 +119,7 @@ type NonNullable<T> = T extends null | undefined ? never : T
 // NonNullable<null | 1 | 2>
 // 1 | 2
 
-type Parameters<T extends (...args: any) => any>
+type Parameters<T extends (...args: any) => any> = T extends (...args: infer P) => any ? P : never
+// Parameters<(a: string, b: number) => Promise<string>>
+// [string, number]
 ```
