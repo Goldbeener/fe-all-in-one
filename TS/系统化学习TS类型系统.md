@@ -109,5 +109,15 @@ type Omit<T, K extends keyof any> = Pick<T, Exclude<keyof T, K>>
 // Omit<{ x: string, y: number }, 'x'>
 // { y: number }
 
-type Record<K >
+type Record<K extends keyof any, T> = {
+	[P in K]: T
+}
+// Record<string, string >
+// { [key: string]: string }
+
+type NonNullable<T> = T extends null | undefined ? never : T
+// NonNullable<null | 1 | 2>
+// 1 | 2
+
+type Parameters<T extends (...args: any) => any>
 ```
