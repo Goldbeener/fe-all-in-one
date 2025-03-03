@@ -137,8 +137,8 @@ type Curr<Args, R> = Args extends [infer First, ...infer Rest] ? (arg: First) =>
 
 declare function curry<Fn extends (...args: any[]) => any> (fn: Fn): Fn extends (...args: infer Args) => infer R ? Curr<Args, R> : never
 
-function add(a: number, bL number): number {
-	reurn a + b
+function add(a: number, b: number): number {
+	return a + b
 }
 const curryAdd =  curry(add)
 curryAdd(1)(2)
