@@ -12,7 +12,7 @@ TS类型系统表现出非常明显的编程语言特性
 + 其他：readonly、keyof、extends、infer、？、-？、+？
 
 -？ 用于移除在TS interface 或 type中的可选标记？； 确保属性在新类型中是必选的
-+？ 用于z
++？ 用于显示添加可选属性，让属性在新类型中是可选的
 
 ## 语法
 
@@ -72,15 +72,25 @@ type GenArr<
 
 ```js
 type Partial<T> = {
-	[P in keyof T]?: T[P]
+	[P in keyof T]?: T[P];
 }
 // Partial<{ x: string}>
 // { x?: string }
 
 
 type Required<T> = {
-	[P in keyof T]-?: T[P]
+	[P in keyof T]-?: T[P];
 }
 // Required<{ x?: string }>
 // { x: string }
+
+
+type Readonly<T> = {
+	readonly [P in keyof T]: T[P];
+}
+// Readonly<{ x: string }>
+// { readonly x: string }
+
+type Exclude<T, U> = T extends U ? never : T
+// Exclude
 ```
