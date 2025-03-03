@@ -99,11 +99,15 @@ type Extract<T, U> = T extends U ? T : never;
 // Exclude<"a" | "b" | "c", "a">
 // "a"
 
-type Pick<T, k extends keyof T> = {
-	[P in K]: T[p]
+type Pick<T, K extends keyof T> = {
+	[P in K]: T[P]
 }
 // Pick<{ x: string, y: number }, "x">
 // { x: string }
 
+type Omit<T, K extends keyof any> = Pick<T, Exclude<keyof T, K>>
+// Omit<{ x: string, y: number }, 'x'>
+// { y: number }
 
+type Record<K >
 ```
