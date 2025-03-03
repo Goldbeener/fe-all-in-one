@@ -132,6 +132,7 @@ type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => i
 
 
 ### 练习
+柯里化函数类型描述
 ```js
 type Curr<Args, R> = Args extends [infer First, ...infer Rest] ? (arg: First) => Curr<Rest, R> : R
 
@@ -142,4 +143,9 @@ function add(a: number, b: number): number {
 }
 const curryAdd =  curry(add)
 curryAdd(1)(2)
+```
+
+获取readonly字段
+```js
+type Equal<First, Second> = (<T>() => T extends First ? true : false) extends (<T>() => T )
 ```
