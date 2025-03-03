@@ -51,6 +51,7 @@ type GenArr<
 	Arr extends any[] = []
 > = Arr["length"] extends N ? Arr : GenArr<N, [...Arr, 1]>;
 
-type ThreeItemArr = GenArr<3>
+type ThreeItemArr = GenArr<3> // [1, 1, 1] 
+
 ```
 
