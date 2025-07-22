@@ -5,3 +5,6 @@
 .nav-files-container .tree-item-inner{
   margin-left: 0px!important;
 }
+.tree-item-inner::before{
+  width: 0;
+}
