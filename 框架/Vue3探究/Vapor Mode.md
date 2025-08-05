@@ -27,7 +27,8 @@ vapor mode是一系列优化手段的集合，主要的优化方向
 ### 补丁标志
 Vue 在编译阶段，生成vnode的过程中，会标记node节点的**可变点**
 具体是props会更新，或是class会更新，或者是value会更新
+这样在dom diff的过程中，就会减少不必要的check操作，提高运行效率
 
 `patchFlag:  <number>`
 
-该标志会声明节点
+该标志会声明节点那个
