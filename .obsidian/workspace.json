@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "框架/Vue3探究/Virtual DOM.md",
+                "file": "框架/Vue3探究/Vapor Mode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Virtual DOM"
+              "title": "Vapor Mode"
             }
           }
         ],
@@ -178,8 +178,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6c44f1beebe5c30a",
+  "active": "fb08df46a16b2f33",
   "lastOpenFiles": [
+    "框架/Vue3探究/Virtual DOM.md",
     "框架/Vue3探究/Vapor Mode.md",
     "框架/Vue3探究/02响应式系统/2.响应式设计.md",
     "待整理",
@@ -216,7 +217,6 @@
     "工程化",
     "GIT/Reset.md",
     "异步操作处理/竞态问题.md",
-    "浏览器机制/资源加载顺序以及是否相互阻塞.md",
     "GIT",
     "可视化/3D",
     "可视化",
