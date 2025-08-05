@@ -178,8 +178,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6c44f1beebe5c30a",
+  "active": "fb08df46a16b2f33",
   "lastOpenFiles": [
+    "待整理",
     "框架/Vue3探究/02响应式系统/1.响应式系统.md",
     "框架/Vue3探究/03渲染器/渲染器.md",
     "框架/Vue3探究/03渲染器/渲染函数.md",
@@ -206,7 +207,6 @@
     "GIT/inside .git.md",
     "工程化/notes.md",
     "工程化/vite",
-    "未命名",
     "0mgs/Pasted image 20240903103554.png",
     "0mgs/Pasted image 20240826212344.png",
     "0mgs/Pasted image 20240826212318.png",
@@ -217,7 +217,6 @@
     "异步操作处理/竞态问题.md",
     "浏览器机制/资源加载顺序以及是否相互阻塞.md",
     "GIT",
-    "浏览器机制/移动端适配.md",
     "可视化/3D",
     "可视化",
     "JS/二进制",

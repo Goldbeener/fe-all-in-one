@@ -6,5 +6,5 @@
   margin-left: 0px!important;
 }
 .tree-item-inner::before{
-  width: 0;
+  width: 0 !important;
 }
