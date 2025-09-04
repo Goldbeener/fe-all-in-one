@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,11 +193,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f1e150007e7ab3e8",
+  "active": "6c44f1beebe5c30a",
   "lastOpenFiles": [
+    "框架/Vue3探究/Vapor Mode.md",
     "框架/Vue3探究/Virtual DOM.md",
     "待整理/vdom & vapor mode.md",
-    "框架/Vue3探究/Vapor Mode.md",
     "待整理/OAuth/OAuth.md",
     "待整理/OAuth",
     "框架/Vue3探究/02响应式系统/2.响应式设计.md",
