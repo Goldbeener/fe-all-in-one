@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "OAuth"
             }
+          },
+          {
+            "id": "699d0862ea4adc2b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.12"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,6 +182,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -178,7 +191,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6c44f1beebe5c30a",
+  "active": "699d0862ea4adc2b",
   "lastOpenFiles": [
     "框架/Vue3探究/Vapor Mode.md",
     "待整理/OAuth/OAuth.md",
