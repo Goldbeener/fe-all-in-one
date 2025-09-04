@@ -28,5 +28,16 @@ vdom 是其中的一个实现方式
 
 Vue3 针对这些做了优化
 
+1. 在vdom的基础上做优化
+	1. Static Hoist
+	2. Patch Flag
+2. vapor mode
+	1. 抛弃vdom
+
+
+
+vapor mode
+
+
 
 
