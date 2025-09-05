@@ -2,8 +2,11 @@
   "accentColor": "",
   "cssTheme": "Blue Topaz",
   "theme": "obsidian",
-  "baseFontSize": 18,
+  "baseFontSize": 20,
   "enabledCssSnippets": [
     "theme"
-  ]
+  ],
+  "textFontFamily": "Andale Mono",
+  "interfaceFontFamily": "Andale Mono",
+  "monospaceFontFamily": "Andale Mono"
 }
