@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待整理/vdom & vapor mode.md",
+                "file": "待整理/Vue的进化：Vapor Mode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vdom & vapor mode"
+              "title": "Vue的进化：Vapor Mode"
             }
           },
           {
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "right": {
     "id": "347e992ea18bc7cc",
@@ -192,7 +193,7 @@
   "active": "f1e150007e7ab3e8",
   "lastOpenFiles": [
     "框架/Vue3探究/01框架概览/视图框架思想.md",
-    "待整理/vdom & vapor mode.md",
+    "待整理/Vue的进化：Vapor Mode.md",
     "工程化/notes.md",
     "框架/Vue3探究/Vapor Mode.md",
     "框架/Vue3探究/01框架概览/编程范式.md",
