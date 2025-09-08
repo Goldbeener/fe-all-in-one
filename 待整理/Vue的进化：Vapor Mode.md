@@ -181,25 +181,22 @@ const vnode = {
 
 有了VDOM之后，页面结构信息就以数据（状态）的形式存在了，
 可以将VDOM数据转换成真实的DOM结构并挂载在指定DOM节点中。
+当数据发生变化时，可以生成一份新的VDOM，
+然后先对比新旧VDOM，找出变化点， （这个diff过程是纯js操作， 效率比较高）
+然后再根据变化点做对应的DOM更新
 
-```js
-render(vdom, container) 
 
-// 渲染vdom到真实dom节点
-function render() {
-
-}
-```
 
 在引入VDOM之后，以SFC模式为例，Vue页面的基本流程如下：
+![[1.1714067610877.jpg]]
+
 1. 开发过程中，编写sfc vue组件
 2. 打包编译过程中，vue-loader将模板转换成渲染函数fn，编译完成之后产物主要内容就是包含多个渲染函数的js代码
-3. 页面加载时，执行对应模块的渲染函数，生成vdom
+3. 页面加载时，执行对应模块的渲染函数fn，渲染函数的生成vdom
 4. 根据vdom渲染出真实dom结构，同时在运行时缓存对应的vdom
-5. 页面需要更新时，先产生一个新页面结构的vdom
-6. 
-7. 再对比新旧vdom，找到两者最小化差异
-8. 调用真实dom api，更新页面
+5. 页面需要更新时，重新执行渲染函数生成一个新页面结构的vdom
+6. 再对比新旧vdom，找到两者最小化差异
+7. 调用真实dom api，更新页面
 
 
 **VDOM带来的优点**
@@ -209,7 +206,7 @@ function render() {
 
 
 **对应的缺点**
-1. 首屏渲染效率问题，dom结构都是从vdom转换来的，在首评的时候会有更多的白屏时间
+1. 首屏渲染效率问题，dom结构都是从vdom转换来的，在首屏的时候会有更多的白屏时间
 2. 额外的运行时内存，因为始终在内存中维护一份页面结构对应的vdom数据
 3. 复杂页面更新问题，dom diff以组件为单位，组件内任何细小的更新，需要遍历整个组件的vdom，确认最终的更新点
 
@@ -229,27 +226,108 @@ function render() {
 总的来说，vue做了如下两个主要的优化
 
 ### Static Hoist
+静态提升，就是在编译阶段收集静态节点，将这些节点的渲染行为提升、缓存；
+在状态更新导致的渲染函数执行中，这些直接服用之前的结果，跳过重新执行，提高更新效率
+
+比如下面这段代码
+
+```html
+<div>
+	<p class="vue">Vue.js is Cool</p>
+	<p class="solid">Solid.js is also Cool</p>
+	<p>Agree?{{agree}}</p>
+</div>
+```
+
+div的前两个子元素，无论数据如何变化，都不会改变属性， 这些节点可以称之为静态节点
+使用vue-template-explorer可以看到编译结果
+
+```js
+import { createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, openBlock as _openBlock, createElementBlock as _createElementBlock } from "vue"
+
+export function render(_ctx, _cache, $props, $setup, $data, $options) {
+
+	return (_openBlock(), _createElementBlock("div", null, [
+		_cache[0] || (_cache[0] = _createElementVNode("p", { class: "vue" }, "Vue.js is Cool", -1 /* CACHED */)),
+		_cache[1] || (_cache[1] = _createElementVNode("p", { class: "solid" }, "Solid.js is also Cool", -1 /* CACHED */)),
+		_createElementVNode("p", null, "Agree?" + _toDisplayString(_ctx.agree), 1 /* TEXT */)
+	]))
+
+}
+```
+可以发现前两个p元素的操作被缓存，在后续diff过程中，重新执行渲染函数，会直接服用这个结果。
 ### Patch Flag
+在上面的编译示例中会发现：
+```js
+_createElementVNode("p", { class: "vue" }, "Vue.js is Cool", -1 /* CACHED */)
 
+_createElementVNode("p", null, "Agree?" + _toDisplayString(_ctx.agree), 1 /* TEXT */)
+```
 
+`_createElementVNode` 函数的最后一个参数传递了一个数字，
+这个其实就是Patch Flag
+
+这个数字会告诉渲染函数，这个节点的哪方面内容会发生变化。比如上述-1代表不会变化，1代表元素的文本内容会发生变化
+
+这样在diff过程中，对于这个节点直接去检查可能会发生变化的属性即可，不需要去检查不变的属性。
+
+比如第三个p元素，直接检查innerText是否变化，而不需要去检查class、style、事件等分支。
+
+这样也提高了diff效率。
 
 ## Vapor Mode
-一种不使用vdom的编译模式
+上述提到的两种优化，是在VDOM的基础上的，但是VDOM本身导致的运行时内存占用等问题并不能得到根本解决。
+因此Vue新开了一种不使用vdom的编译模式，就是Vapor Mode。
 
-编译之后，直接将模板渲染成真实node节点，
-并且建立响应式数据与相关node的映射关系
-在数据变更时，直接调用真实DOM API 更新node，实现细粒度更新
+简单来说，就是编译过程，直接将Vue模板渲染转译为命令式的dom操作，
+视图声明在编译阶段直接被转译成了一系列dom操作的命令序列。
+这样在数据变化时，直接就知道需要操作的dom命令，相对于vdom方案，减少了diff的过程
 
-不需要diff操作，在找到需要的dom更新行为
+还是上述的dom结构，在Vapor Mode下编译结果为
 
+```js
+import { children as _children, setText as _setText, renderEffect as _renderEffect, template as _template } from 'vue/vapor';
 
-更小的包体积
-更高效的dom更新
-更少的运行时内存占用
+const t0 = _template("<div><p class=\"vue\">Vue.js is Cool</p><p class=\"solid\">Solid.js is also Cool</p><p></p></div>")
 
+  
 
-应用场景：
+export function render(_ctx, $props, $emit, $attrs, $slots) {
+	const n1 = t0()
+	const n0 = _children(n1, 2)
+	let _agree
+	_renderEffect(() => _agree !== _ctx.agree && _setText(n0, "Agree?", (_agree = _ctx.agree)))
+	
+	return n1
+}
+```
+
+第三个p元素是可能发生变化的节点
+编译之后，直接在一个副作用函数里面，把数据agree和状态变化时p元素需要做的dom操作（`_setText`）关联起来了，数据变化，直接一步到位调用对应DOM操作更新DOM。
+
+`这种编译模式带来的好处`
+1. 更小的包体积,因为不需要
+2. 更少的运行时内存占用，因为不需要维护VDOM
+3. 更高效的dom更新， 因为数据变更对应的dom操作是确定的，减少了diff过程
+
+### 如何使用呢
+1. 目前只能在setup语法糖中使用
+2. 仅需要将报名从'vue'变为'vue/vapor'
+
+```js
+<script setup lang="ts"> 
+import { ref } from 'vue/vapor' 
+
+const bar = ref('update') 
+const id = ref('id') 
+const p = ref<any>({ bar, id: 'not id', test: 100, })
+<script>
+```
+并且可以和非Vapor Mode的组件混用，也就是某些组件用Vapor Mode 有些不用Vapor Mode。
+
+### 应用场景
 1. 大组件
+	1. 因为Vue VDOM的更新是以组件为单位的，在大组件中，任何一个状态的变更都需要对整个组件进行diff检查
 2. 极致的性能要求
 
 
