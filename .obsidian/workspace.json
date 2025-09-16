@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Tricks.md",
+                "file": "TS/类型操作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tricks"
+              "title": "类型操作"
             }
           }
         ]
@@ -164,8 +164,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "22b30dd54ff69839",
+  "active": "fb08df46a16b2f33",
   "lastOpenFiles": [
+    "CSS/Tricks.md",
     "CSS/Flex.md",
     "待整理/Vue的进化：Vapor Mode.md",
     "工程化/notes.md",
@@ -202,7 +203,6 @@
     "TS/系统化学习TS类型系统.md",
     "TS/Zen of TS.md",
     "TS/类型操作.md",
-    "CSS/Tricks.md",
     "浏览器机制/像素相关.md",
     "工程化/vite",
     "工程化",
