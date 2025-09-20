@@ -14,3 +14,66 @@
 
 
 ## `Render by Replacement`
+```js
+// 框架层
+export class Framework {
+	state = {}
+	
+	constructor(initSatte) {
+		this.state = initSatte
+		// 初始化渲染
+		this._template()
+	}
+	
+	/**
+	* 实例必须要实现 否则会报错
+	*/
+	template() {
+		throw new Error("must be implated")
+	}
+	
+	setState(newState) {
+		this.state = newState
+		// 数据更新时重新渲染
+		this._template()
+	}
+	
+	_template() {
+		// 每次渲染都是完整的innerHTML替换
+		document.getElementById("app").innerHTML = this.template()
+	}
+
+}
+```
+
+```js
+// 应用层
+import { Framework } from "./framework.js"
+
+class App extends Framework {
+
+	constructor() {
+		super({ count: 0 })
+		setInterval(() => {
+			this.setState({ count: this.state.count + 1 })
+		}, 1000)
+	}
+	
+	/**
+	* 负责整个页面的dom结构 
+	*/ 
+	template() {
+		return `<div>${this.state.count}</div>`
+	}
+}
+
+  
+
+new App()
+```
+
+这种渲染模式，比较简单直接，每次更新都是根据状态重新生成的新的DOM结构，并且使用innerHTMl直接替换
+思路简单，但是效率差
+
+## `Dirty Checking` 
+
