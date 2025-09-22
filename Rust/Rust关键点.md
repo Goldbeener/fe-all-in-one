@@ -19,22 +19,87 @@ Rust 要求
 ## 模式匹配
 match
 
-Option **表示可能为空的值**
-	+ Some + None来处理Option值
-	+ Some 在值不为空时解包
-	+ None 处理为空时的逻辑
-Result<T, E> **表示可能失败的操作**
-	+ Ok + Err 处理Result类型值
-	+ Ok 在操作成功时做返回值
-	+ Err 在失败时做提示
+### Option 
+**表示可能为空的值**
+
+**Some 和 None 是Option类型的两个枚举值**
+
+如果函数返回一个Option类型返回值，
+那么函数要么返回一个Some(xxx)
+要么返回一个None
+
+**match 匹配Option类型的变量时**
+**需要处理Some 和 None两个分支**
+
+### Result<T, E> 
+**表示可能失败的操作**
+**推荐在函数可能失败时返回Result**
+
+Result 类型的两个枚举， `Err` 和 `Ok`
+
+函数返回Result时，要返回Err和Ok
+
+match 匹配Result 时
+也需要处理两个分支，Err 和 Ok
+
+### Result 和 Option的转换
+```rust
+Option<T>.ok_or(err)  把None转换成Err(err)
+Result<T, E>.ok() 忽略错误，只保留Some(T) 或 None
+
+let maybe_user = Some('Alice);
+let result: Result<&str, &str> = maybe_user.ok_or("No user");
+
+```
+
+### ？运算符
+
+`?` 运算符 自动展开Result或Option
+```rust
+fn divide(a: i32, b: i32) -> Result<i32, String> {
+    if b == 0 {
+        Err("divide by zero".to_string())
+    } else {
+        Ok(a / b)
+    }
+}
+
+let result = divide(10, 2)?; // 如果是 Err，直接返回
+```
 
 
-match 来处理 Option类型的数据
-对Option类型的数据，可以使用Some + None来处理， Some做非空解包，None做为空逻辑处理
+#### 组合子
+combinator
+避免match的重复样板代码
+```rust
+fn find_username(id: u32) -> Option<&'static str> {
+    match id {
+        1 => Some("Alice"),
+        2 => Some("Bob"),
+        _ => None,
+    }
+}
 
-Result<T, E>类型 用作函数返回值场景，搭配Ok+Err
-在操作成功时，调用Ok() 做返回值
-在操作失败时，调用Err() 返回错误信息 
+let username = find_username(1).unwrap_or("Guest");
+
+```
+对Option数据，可以执行`.unwrap_or(default)`
+如果是None，使用default默认值
+
+也可以执行`.map(f)` 如果是Some(x) 就执行函数`f(x)`
+
+`.and_then(f)`
+
+
+### 链式组合子
++ `map/map_err` 转换成功值或错误值
++ `and_then/or_else` 继续链式调用
+
+```rust
+let res = divide(10, 2).map(|x| x * 2).map_err(|e| format!("failed {}", e))
+```
+
+
 
 ## 错误处理
 Result<T, E> 函数式的Either
