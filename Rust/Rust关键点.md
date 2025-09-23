@@ -92,7 +92,10 @@ let username = find_username(1).unwrap_or("Guest");
 
 
 ### 链式组合子
-+ `map/map_err` 转换成功值或错误值
++ `map/map_err` 
+	+ 处理Result类型数据，
+	+ map接收的函数，处理Result成功的结果 
+	+ map_err接收的函数， 处理result失败的结果
 + `and_then/or_else` 继续链式调用
 
 ```rust
