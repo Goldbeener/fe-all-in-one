@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Rust关键点.md",
+                "file": "Rust/基础要素.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rust关键点"
+              "title": "基础要素"
             }
           }
         ],
@@ -179,10 +179,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b9fa70b03d8a5ba3",
+  "active": "fb08df46a16b2f33",
   "lastOpenFiles": [
-    "Rust/基础要素.md",
     "Rust/Rust关键点.md",
+    "Rust/基础要素.md",
     "TS/类型操作.md",
     "Rust",
     "待整理/前端视图框架渲染DOM的三种方式.md",
