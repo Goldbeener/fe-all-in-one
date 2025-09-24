@@ -171,7 +171,9 @@ Result<T, E> 函数式的Either
 
 一个外部`crate`，只要在`Cargo.toml`中声明依赖之后, 就可以在rust项目任意位置通过`<crateName>::xxx` 使用
 
-一个
+一个crate下，有多个trait， 使用trait时，可以有两种方式
+1. `crate：：trait.fn()`
+2. 或者先use，后面直接使用 `traitName.fn()`
 
 
 
