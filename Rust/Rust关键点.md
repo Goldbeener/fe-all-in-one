@@ -159,7 +159,21 @@ let res = divide(10, 2).map(|x| x * 2).map_err(|e| format!("failed {}", e))
 ## 错误处理
 Result<T, E> 函数式的Either
 
-## trait
+## crate & trait
+crate 板条箱
+rust中的编译单元，
+每一个crate都会被编译成一个库或可执行文件
+
+> **类似于js生态中的npm包**
+
+每个crate有自己的模块树， mod/pub
+
+使用`use`把crate下的某个模块路径导入当前作用域，方便直接使用短名，而不是从crate开始调用
+
+
+
+trait 特征，行为、接口
+crate包里面提供的 能力，类似于interface或者常量等
 
 `：：`
 **关联函数**
