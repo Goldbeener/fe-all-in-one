@@ -159,7 +159,7 @@ let res = divide(10, 2).map(|x| x * 2).map_err(|e| format!("failed {}", e))
 ## 错误处理
 Result<T, E> 函数式的Either
 
-## 模块
+## trait
 
 `：：`
 **关联函数**
@@ -168,6 +168,12 @@ Result<T, E> 函数式的Either
 `.`调用，
 **实例函数**
 基于某个对象的实例调用，第一个参数隐式传递`self`
+
+一个外部`crate`，只要在`Cargo.toml`中声明依赖之后, 就可以在rust项目任意位置通过`<crateName>::xxx` 使用
+
+一个
+
+
 
 ## 并发与多线程
 
