@@ -170,7 +170,17 @@ match 表达式与函数调用类似，会影响参数的所有权
 3. 元素类型相同
 
 **String**
-字节的集合
+**字节的集合** ？ 还是字符的集合？
 可变、可增长、拥有所有权、UTF-8编码的字符串类型
 
 Rust核心语言： str （&str）
+
+因为String在rust概念中是字节的集合
+因此，正常的方法是
+```rust
+let mut s = String::from("lo")
+s.push('l')； // 字符的集合，所以向集合内再次添加字符时，使用push犯法
+println!("{s}"); // lol
+
+s.push_str("legend"); // push_str 接收一个字符串切片，相当于是push包装的一个语法糖，批量插入多个字符
+```
