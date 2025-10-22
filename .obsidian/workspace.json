@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76fddbbff15695b7",
+        "id": "532ee3b426d113a2",
         "type": "tabs",
         "children": [
           {
-            "id": "39f83dcffc22d891",
+            "id": "6c44f1beebe5c30a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "right": {
     "id": "347e992ea18bc7cc",
@@ -164,10 +165,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "39f83dcffc22d891",
+  "active": "6c44f1beebe5c30a",
   "lastOpenFiles": [
-    "未命名 1.base",
     "未命名.base",
+    "未命名 1.base",
     "Rust/Rust关键点.md",
     "Rust/Notes.md",
     "Rust/基础要素.md",
