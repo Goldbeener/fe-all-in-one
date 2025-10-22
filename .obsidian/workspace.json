@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "532ee3b426d113a2",
+        "id": "76fddbbff15695b7",
         "type": "tabs",
         "children": [
           {
-            "id": "6c44f1beebe5c30a",
+            "id": "39f83dcffc22d891",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "347e992ea18bc7cc",
@@ -165,12 +164,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6c44f1beebe5c30a",
+  "active": "39f83dcffc22d891",
   "lastOpenFiles": [
     "未命名.base",
+    "Rust/Notes.md",
     "未命名 1.base",
     "Rust/Rust关键点.md",
-    "Rust/Notes.md",
     "Rust/基础要素.md",
     "待整理/Vue的进化：Vapor Mode.md",
     "待整理/前端视图框架渲染DOM的三种方式.md",
@@ -213,7 +212,6 @@
     "GIT",
     "可视化/3D",
     "可视化",
-    "JS/二进制",
     "0mgs/phone_calc.png",
     "imgs/Pasted image 20240526113238.png"
   ]
