@@ -307,3 +307,34 @@ if let Some(3) = v {
 
 
 序列只允许用于数字或字符类型，因为它们是可以连续的
+
+
+**方法**
+
+```rust
+/**
+结构体定义，分两个部分
+1. data 部分， 属性定义
+2. methods 部分
+*/ 
+struct Circle {
+	x: f64,
+	y: f64,
+	radius: f64,
+}
+
+impl Circle {
+	// 关联函数
+	fn new(x: f64, y: f64, radius: f64) -> Circle {
+		Circle {
+			x,
+			y,
+			radius
+		}
+	}
+	// 方法 第一个参数必须是self，或者&self, &mut self
+	fn area(&self) {
+		std::f64::consts::PI * (self.radius * self.radius)
+	}
+}
+```
