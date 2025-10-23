@@ -315,7 +315,7 @@ if let Some(3) = v {
 /**
 结构体定义，分两个部分
 1. data 部分， 属性定义
-2. methods 部分
+2. methods 部分, 分为关联函数和方法， 二者的区别是第一个参数是否是self
 */ 
 struct Circle {
 	x: f64,
