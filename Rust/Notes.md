@@ -338,3 +338,15 @@ impl Circle {
 	}
 }
 ```
+
+在enum上也可以实现方法
+```rust
+enum Message {
+	Write(String)
+}
+impl Message {
+	fn call(&self) {
+		//
+	}	
+}
+```
