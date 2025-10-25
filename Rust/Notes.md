@@ -377,7 +377,8 @@ impl Message {
 5. const 泛型 和 const fn编译时执行函数
 
 
-**特征**
+**特征Trait** 
+
 
 
 
