@@ -3,9 +3,7 @@
   "cssTheme": "Blue Topaz",
   "theme": "obsidian",
   "baseFontSize": 14,
-  "enabledCssSnippets": [
-    "theme"
-  ],
+  "enabledCssSnippets": [],
   "textFontFamily": "Andale Mono",
   "interfaceFontFamily": "Andale Mono",
   "monospaceFontFamily": "Andale Mono",
