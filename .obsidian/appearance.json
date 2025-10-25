@@ -8,5 +8,7 @@
   ],
   "textFontFamily": "Andale Mono",
   "interfaceFontFamily": "Andale Mono",
-  "monospaceFontFamily": "Andale Mono"
+  "monospaceFontFamily": "Andale Mono",
+  "translucency": false,
+  "nativeMenus": true
 }

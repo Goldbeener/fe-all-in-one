@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.500732421875
+    "width": 248.5
   },
   "right": {
     "id": "347e992ea18bc7cc",
@@ -166,8 +166,8 @@
   },
   "active": "39f83dcffc22d891",
   "lastOpenFiles": [
-    "未命名.base",
     "Rust/Notes.md",
+    "未命名.base",
     "未命名 1.base",
     "Rust/Rust关键点.md",
     "Rust/基础要素.md",

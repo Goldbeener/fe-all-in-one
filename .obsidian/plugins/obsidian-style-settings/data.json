@@ -1,6 +1,6 @@
 {
   "blue-topaz-theme@@background-image-settings-switch": true,
-  "blue-topaz-theme@@background-notebook-liked-switch": true,
+  "blue-topaz-theme@@background-notebook-liked-switch": false,
   "blue-topaz-theme@@bg-markdown-page-opacity-cp": 0.25,
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",
   "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-sublime",
@@ -10,5 +10,10 @@
   "Blue-Topaz-Codebox-Highlight@@text-color-code@@dark": "#27D00C",
   "floating-toc-styles@@toggle-floating-toc-header-color": false,
   "floating-toc-styles@@floating-toc-font-color@@dark": "#00FFFF",
-  "floating-toc-styles@@floating-toc-font-size": 1
+  "floating-toc-styles@@floating-toc-font-size": 1,
+  "blue-topaz-theme@@layout-style-options": "bt-bubble-layout",
+  "blue-topaz-theme@@toggle-header-bottom-line": false,
+  "blue-topaz-theme@@bt-bubble-not-file-tree": false,
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
+  "blue-topaz-theme@@bt-bubble-radius": "8px"
 }
