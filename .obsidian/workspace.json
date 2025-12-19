@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Notes"
             }
+          },
+          {
+            "id": "3d12bb0ac155e04b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +177,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6698903be4ab4b6e",
+  "active": "3d12bb0ac155e04b",
   "lastOpenFiles": [
     "框架/Vue3探究/02响应式系统/1.响应式系统.md",
     "框架/Vue3探究/02响应式系统/5.响应式数据延伸.md",
