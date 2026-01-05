@@ -16,5 +16,6 @@
   "blue-topaz-theme@@bt-bubble-not-file-tree": false,
   "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
   "blue-topaz-theme@@bt-bubble-radius": "8px",
-  "floating-toc-styles@@enable-outline-style": "float-curves-outline-style"
+  "floating-toc-styles@@enable-outline-style": "float-curves-outline-style",
+  "blue-topaz-theme@@colorful-ordered-list": true
 }
