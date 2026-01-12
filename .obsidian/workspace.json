@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待整理/浏览器生命周期.md",
+                "file": "待整理/浏览器页面生命周期.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "浏览器生命周期"
+              "title": "浏览器页面生命周期"
             }
           }
         ]
@@ -167,7 +167,7 @@
   "active": "6698903be4ab4b6e",
   "lastOpenFiles": [
     "待整理/数组.md",
-    "待整理/浏览器生命周期.md",
+    "待整理/浏览器页面生命周期.md",
     "待整理/notes.md",
     "待整理/快速学习.md",
     "公众号文章/Vue的进化：Vapor Mode.md",
