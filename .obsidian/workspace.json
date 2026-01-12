@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "待整理/数组.md",
+                "file": "待整理/浏览器生命周期.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数组"
+              "title": "浏览器生命周期"
             }
           }
         ]
@@ -166,8 +166,9 @@
   },
   "active": "6698903be4ab4b6e",
   "lastOpenFiles": [
-    "待整理/notes.md",
     "待整理/数组.md",
+    "待整理/浏览器生命周期.md",
+    "待整理/notes.md",
     "待整理/快速学习.md",
     "公众号文章/Vue的进化：Vapor Mode.md",
     "公众号文章/前端视图框架渲染DOM的三种方式.md",
@@ -203,7 +204,6 @@
     "框架/Vue3探究/vue3技术点.canvas",
     "待整理/OAuth",
     "待整理",
-    "框架/Vue3探究/03渲染器/渲染器.md",
     "框架/Vue3探究/0mgs/render-pipeline.png",
     "工程化/vite",
     "0mgs/Pasted image 20240903103554.png",
