@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3cabc6b0ba1e4ec9",
+        "id": "dd99544e1361f1ca",
         "type": "tabs",
         "children": [
           {
-            "id": "6698903be4ab4b6e",
+            "id": "94e6f342bc1daae6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "浏览器页面生命周期"
             }
-          },
-          {
-            "id": "5ce8b5a3172f8dab",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.11.4"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,12 +164,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5ce8b5a3172f8dab",
+  "active": "94e6f342bc1daae6",
   "lastOpenFiles": [
-    "待整理/数组.md",
-    "待整理/浏览器页面生命周期.md",
-    "待整理/notes.md",
     "待整理/快速学习.md",
+    "未命名 1.base",
+    "未命名.base",
+    "待整理/浏览器页面生命周期.md",
+    "待整理/数组.md",
+    "待整理/notes.md",
     "公众号文章/Vue的进化：Vapor Mode.md",
     "公众号文章/前端视图框架渲染DOM的三种方式.md",
     "公众号文章",
@@ -195,8 +184,6 @@
     "框架/Vue3探究/02响应式系统/4.原始值响应方案.md",
     "框架/Vue3探究/02响应式系统/3.非原始值响应方案.md",
     "框架/Vue3探究/02响应式系统/2.响应式设计.md",
-    "未命名 1.base",
-    "未命名.base",
     "GIT/inside .git.md",
     "GIT/Reset.md",
     "Rust",
@@ -211,7 +198,6 @@
     "框架/Vue3探究/01框架概览/编程范式.md",
     "框架/Vue3探究/02响应式系统/6.effectScope.md",
     "框架/Vue3探究/依赖注入 Provide-Inject.md",
-    "框架/Vue3探究/逻辑复用.md",
     "框架/Vue3探究/Vue挂载流程.canvas",
     "框架/Vue3探究/vue3设计与实现.canvas",
     "框架/Vue3探究/vue3技术点.canvas",
