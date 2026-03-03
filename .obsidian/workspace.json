@@ -11,30 +11,20 @@
             "id": "94e6f342bc1daae6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "待整理/浏览器页面生命周期.md",
-                "mode": "source",
-                "source": false
+                "file": "框架/Vue3探究/Vue挂载流程.canvas",
+                "viewState": {
+                  "x": 122.90899543617392,
+                  "y": 950.7442046261688,
+                  "zoom": -0.18834225944947727
+                }
               },
-              "icon": "lucide-file",
-              "title": "浏览器页面生命周期"
-            }
-          },
-          {
-            "id": "888c739d20f5ccc1",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.11.5"
+              "icon": "lucide-layout-dashboard",
+              "title": "Vue挂载流程"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cache",
+                "query": "getCurren",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 365.5
   },
   "right": {
     "id": "347e992ea18bc7cc",
@@ -178,11 +168,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b200f5c3f30964a2",
+  "active": "94e6f342bc1daae6",
   "lastOpenFiles": [
+    "框架/Vue3探究/vue3技术点.canvas",
+    "框架/Vue3探究/04组件化/组件化.md",
+    "框架/Vue3探究/vue3设计与实现.canvas",
+    "框架/Vue3探究/Vue3.md",
+    "框架/Vue3探究/Virtual DOM.md",
+    "框架/Vue3探究/Vapor Mode.md",
+    "框架/Vue3探究/状态与Hook函数.md",
+    "框架/Vue3探究/依赖注入 Provide-Inject.md",
+    "框架/Vue3探究/Vue挂载流程.canvas",
+    "未命名.base",
     "待整理/快速学习.md",
     "未命名 1.base",
-    "未命名.base",
     "待整理/浏览器页面生命周期.md",
     "待整理/数组.md",
     "待整理/notes.md",
@@ -202,19 +201,10 @@
     "GIT/Reset.md",
     "Rust",
     "0mgs/1.1714067610877.jpg",
-    "框架/Vue3探究/状态与Hook函数.md",
-    "框架/Vue3探究/Vapor Mode.md",
-    "框架/Vue3探究/Virtual DOM.md",
     "框架/Vue3探究/01框架概览/视图框架思想.md",
     "0mgs/Pasted image 20250906205239.png",
     "0mgs/Pasted image 20250906205158.png",
     "工程化/notes.md",
-    "框架/Vue3探究/01框架概览/编程范式.md",
-    "框架/Vue3探究/02响应式系统/6.effectScope.md",
-    "框架/Vue3探究/依赖注入 Provide-Inject.md",
-    "框架/Vue3探究/Vue挂载流程.canvas",
-    "框架/Vue3探究/vue3设计与实现.canvas",
-    "框架/Vue3探究/vue3技术点.canvas",
     "待整理/OAuth",
     "待整理",
     "框架/Vue3探究/0mgs/render-pipeline.png",
