@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cache",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,7 +178,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "888c739d20f5ccc1",
+  "active": "b200f5c3f30964a2",
   "lastOpenFiles": [
     "待整理/快速学习.md",
     "未命名 1.base",
