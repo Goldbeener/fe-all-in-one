@@ -23,8 +23,21 @@
               "icon": "lucide-layout-dashboard",
               "title": "Vue挂载流程"
             }
+          },
+          {
+            "id": "4d2e0e1e31e3c3a4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +181,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "94e6f342bc1daae6",
+  "active": "4d2e0e1e31e3c3a4",
   "lastOpenFiles": [
     "框架/Vue3探究/vue3技术点.canvas",
     "框架/Vue3探究/04组件化/组件化.md",
