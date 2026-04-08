@@ -11,33 +11,17 @@
             "id": "94e6f342bc1daae6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "框架/Vue3探究/Vue挂载流程.canvas",
-                "viewState": {
-                  "x": 122.90899543617392,
-                  "y": 950.7442046261688,
-                  "zoom": -0.18834225944947727
-                }
+                "file": "AIAgent/note.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Vue挂载流程"
-            }
-          },
-          {
-            "id": "4d2e0e1e31e3c3a4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.4"
+              "icon": "lucide-file",
+              "title": "note"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "getCurren",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +74,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,8 +164,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4d2e0e1e31e3c3a4",
+  "active": "94e6f342bc1daae6",
   "lastOpenFiles": [
+    "未命名 2.base",
+    "AIAgent/note.md",
+    "AIAgent",
+    "未命名 1.base",
+    "未命名.base",
+    "CSS/Flex.md",
     "框架/Vue3探究/vue3技术点.canvas",
     "框架/Vue3探究/04组件化/组件化.md",
     "框架/Vue3探究/vue3设计与实现.canvas",
@@ -192,9 +181,7 @@
     "框架/Vue3探究/状态与Hook函数.md",
     "框架/Vue3探究/依赖注入 Provide-Inject.md",
     "框架/Vue3探究/Vue挂载流程.canvas",
-    "未命名.base",
     "待整理/快速学习.md",
-    "未命名 1.base",
     "待整理/浏览器页面生命周期.md",
     "待整理/数组.md",
     "待整理/notes.md",
@@ -214,10 +201,8 @@
     "GIT/Reset.md",
     "Rust",
     "0mgs/1.1714067610877.jpg",
-    "框架/Vue3探究/01框架概览/视图框架思想.md",
     "0mgs/Pasted image 20250906205239.png",
     "0mgs/Pasted image 20250906205158.png",
-    "工程化/notes.md",
     "待整理/OAuth",
     "待整理",
     "框架/Vue3探究/0mgs/render-pipeline.png",
@@ -227,8 +212,6 @@
     "0mgs/Pasted image 20240826212318.png",
     "0mgs/Pasted image 20240816165610.png",
     "工程化",
-    "GIT",
-    "可视化/3D",
     "0mgs/phone_calc.png",
     "imgs/Pasted image 20240526113238.png"
   ]
