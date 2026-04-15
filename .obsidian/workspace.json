@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dd99544e1361f1ca",
+        "id": "7a99fb0415562fdf",
         "type": "tabs",
         "children": [
           {
-            "id": "94e6f342bc1daae6",
+            "id": "d6ab8c8cb1c5abb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Tricks"
             }
-          },
-          {
-            "id": "f57fdb1d632d1821",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/Notes.md",
+                "file": "CSS/Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Notes 的反向链接列表"
+              "title": "Tricks 的反向链接列表"
             }
           },
           {
@@ -174,18 +161,19 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f57fdb1d632d1821",
+  "active": "d6ab8c8cb1c5abb5",
   "lastOpenFiles": [
     "CSS/Flex.md",
+    "未命名.base",
+    "未命名 1.base",
+    "未命名 2.base",
     "CSS/Tricks.md",
     "AIAgent/note.md",
-    "未命名 2.base",
     "AIAgent",
-    "未命名 1.base",
-    "未命名.base",
     "框架/Vue3探究/vue3技术点.canvas",
     "框架/Vue3探究/04组件化/组件化.md",
     "框架/Vue3探究/vue3设计与实现.canvas",
@@ -212,7 +200,6 @@
     "框架/Vue3探究/02响应式系统/3.非原始值响应方案.md",
     "框架/Vue3探究/02响应式系统/2.响应式设计.md",
     "GIT/inside .git.md",
-    "GIT/Reset.md",
     "Rust",
     "0mgs/1.1714067610877.jpg",
     "0mgs/Pasted image 20250906205239.png",
