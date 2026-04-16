@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Tricks.md",
+                "file": "AIAgent/大模型基础信息.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tricks"
+              "title": "大模型基础信息"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/Tricks.md",
+                "file": "AIAgent/大模型基础信息.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Tricks 的反向链接列表"
+              "title": "大模型基础信息 的反向链接列表"
             }
           },
           {
@@ -167,12 +167,13 @@
   },
   "active": "d6ab8c8cb1c5abb5",
   "lastOpenFiles": [
+    "AIAgent/note.md",
+    "AIAgent/大模型基础信息.md",
+    "CSS/Tricks.md",
     "CSS/Flex.md",
     "未命名.base",
     "未命名 1.base",
     "未命名 2.base",
-    "CSS/Tricks.md",
-    "AIAgent/note.md",
     "AIAgent",
     "框架/Vue3探究/vue3技术点.canvas",
     "框架/Vue3探究/04组件化/组件化.md",
