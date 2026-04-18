@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AIAgent/大模型基础信息.md",
+                "file": "AIAgent/note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大模型基础信息"
+              "title": "note"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 277.51103591918945
   },
   "right": {
     "id": "347e992ea18bc7cc",
@@ -167,8 +167,8 @@
   },
   "active": "d6ab8c8cb1c5abb5",
   "lastOpenFiles": [
-    "AIAgent/note.md",
     "AIAgent/大模型基础信息.md",
+    "AIAgent/note.md",
     "CSS/Tricks.md",
     "CSS/Flex.md",
     "未命名.base",
