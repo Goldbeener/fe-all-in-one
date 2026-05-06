@@ -1,4 +1,6 @@
 
+**把执行交给 AI，把判断留给自己。**
+
 LLM 
 Large Language Model 
 大语言模型
