@@ -144,5 +144,8 @@ LangGraph
 + 处理分支
 + 处理回调
 + 多节点协作
++ checkPoint
+	+ 节点恢复
+
 
 
