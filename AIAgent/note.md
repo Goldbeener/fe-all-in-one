@@ -148,4 +148,7 @@ LangGraph
 	+ 节点恢复
 
 
-
+一个要点是：
+**Claude Code 的多 agent 本质上是编排模式**，
+主 agent 负责拆分任务、派发给子 agent，
+但默认情况下主 agent 是**逐个等待子 agent 完成后再派发下一个**，而不是同时启动所有子 agent。
