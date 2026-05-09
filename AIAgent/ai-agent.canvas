@@ -10,7 +10,7 @@
 		{"id":"59788a88ca916b64","type":"text","text":"情绪层","x":-1380,"y":780,"width":250,"height":60},
 		{"id":"c78382539052fda6","type":"text","text":"记忆层","x":-1359,"y":860,"width":250,"height":60},
 		{"id":"9120dc18434843a7","type":"text","text":"## 用户输入\n实时、基础信息，\n用户核心诉求","x":-846,"y":-75,"width":260,"height":190},
-		{"id":"73f487d20e00d99a","type":"text","text":"## 流程编排\n任务分步完成时，执行顺序和条件分支调度\n\nLangGraph： 任务调度，决定要做什么\nLangChain： 任务执行，决定怎么做","x":-360,"y":-120,"width":340,"height":280},
+		{"id":"73f487d20e00d99a","type":"text","text":"## 流程编排\n问题拆解，流程编排\n任务分步完成时，执行顺序和条件分支调度\n\nLangGraph： 任务调度，决定要做什么\nLangChain： 任务执行，决定怎么做","x":-360,"y":-120,"width":340,"height":280},
 		{"id":"cd3afc60dd1157c9","type":"text","text":"## 状态管理\n\n多步执行时，状态维护\n当前处于哪个步骤，已经获取了什么信息，下一步应该做什么","x":160,"y":-141,"width":320,"height":200},
 		{"id":"4bea9ae7d0d7f58a","type":"text","text":"memory retrivel","x":515,"y":-596,"width":245,"height":55},
 		{"id":"f1254a4de4b0f15f","type":"text","text":"向量化存储","x":1340,"y":-734,"width":250,"height":60},
@@ -32,13 +32,15 @@
 		{"id":"a42e907646065b65","fromNode":"9120dc18434843a7","fromSide":"right","toNode":"73f487d20e00d99a","toSide":"left","label":"1"},
 		{"id":"c88a67c847910f21","fromNode":"73f487d20e00d99a","fromSide":"bottom","toNode":"6a60952f5cbd4c3a","toSide":"top","label":"2"},
 		{"id":"82ad8ddf1cf420ab","fromNode":"73f487d20e00d99a","fromSide":"right","toNode":"672b5015da7aaadf","toSide":"left"},
-		{"id":"f947b0f135b143ae","fromNode":"73f487d20e00d99a","fromSide":"right","toNode":"cd3afc60dd1157c9","toSide":"left"},
-		{"id":"425e0ef9af94d0a1","fromNode":"73f487d20e00d99a","fromSide":"right","toNode":"0a8a28550ea7e30a","toSide":"left"},
+		{"id":"f947b0f135b143ae","fromNode":"73f487d20e00d99a","fromSide":"right","toNode":"cd3afc60dd1157c9","toSide":"left","label":"3"},
+		{"id":"425e0ef9af94d0a1","fromNode":"73f487d20e00d99a","fromSide":"right","toNode":"0a8a28550ea7e30a","toSide":"left","label":"3"},
 		{"id":"e59c646293b70a81","fromNode":"cd3afc60dd1157c9","fromSide":"right","toNode":"eb77324b9447b4be","toSide":"left"},
 		{"id":"8baadf4b05391fc0","fromNode":"dd3fc94c8bccc97a","fromSide":"left","toNode":"9780e1a7a9bd2822","toSide":"right"},
 		{"id":"589784bbaad89ba7","fromNode":"9780e1a7a9bd2822","fromSide":"left","toNode":"dff08d5e05ee1f4d","toSide":"right"},
 		{"id":"0b0c21fb7b5a4c2f","fromNode":"9780e1a7a9bd2822","fromSide":"left","toNode":"06a937f6998386ae","toSide":"right"},
 		{"id":"a2983e35883132a8","fromNode":"9780e1a7a9bd2822","fromSide":"left","toNode":"59788a88ca916b64","toSide":"right"},
-		{"id":"48d2264e2b7cf1ca","fromNode":"9780e1a7a9bd2822","fromSide":"left","toNode":"c78382539052fda6","toSide":"right"}
+		{"id":"48d2264e2b7cf1ca","fromNode":"9780e1a7a9bd2822","fromSide":"left","toNode":"c78382539052fda6","toSide":"right"},
+		{"id":"f2261c2c843c64b2","fromNode":"6a60952f5cbd4c3a","fromSide":"top","toNode":"73f487d20e00d99a","toSide":"bottom"},
+		{"id":"8bbcaa5805819fb8","fromNode":"672b5015da7aaadf","fromSide":"left","toNode":"73f487d20e00d99a","toSide":"right","label":"3"}
 	]
 }
