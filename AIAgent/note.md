@@ -196,3 +196,8 @@ Agent的组成
 + tool定义与声明
 + createAgent 将模型与tool聚合
 + agent.invoke  模型调用
+
+Runnable  把多个步骤串联起来
+用于人为的限定步骤
+不是由Agent规划步骤
+
