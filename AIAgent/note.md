@@ -235,8 +235,12 @@ Runnable 链式处理
 
 这时候适合使用Runnable LCEL
 常见的两个操作
-+ RunnablePassthrough 不改变输入，增加额外字段
-+ RunnableLambda 根据输入，做一些本地逻辑判断
++ RunnablePassthrough 
+	+ 不改变输入，增加额外字段
+	+ 在并行分支中比较有用
++ RunnableLambda 
+	+ 根据输入，做一些本地逻辑判断，对输入做转换
+	+ 清洗、计算、格式化
 
 不替代Agent，在此之前放一些简单的逻辑
 
