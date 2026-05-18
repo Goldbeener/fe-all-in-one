@@ -226,3 +226,17 @@ few-shot
 	2. 在输出结构之后，再做一次格式化
 2. withStructuredOutput 直接要求模型输出结构化的数据 （根据模型支持情况）
 	1. 支持的模型会按照输入的数据结构，输出结果
+
+
+Runnable 链式处理
+
+在将数据交由Agent处理之前，需要做一系列处理，
+这些操作往往是串联的，一个接一个，前一个输出是后一个输入
+
+这时候适合使用Runnable LCEL
+常见的两个操作
++ RunnablePassthrough 不改变输入，增加额外字段
++ RunnableLambda 根据输入，做一些本地逻辑判断
+
+不替代Agent，在此之前放一些简单的逻辑
+
