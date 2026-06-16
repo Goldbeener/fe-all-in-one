@@ -60,7 +60,7 @@ app.provide(key, value)
 // 组件 createComponentInstance
 function createComponentInstance() {
 	appContext = parent ? parent.appContext : vnode.appContext
-	// 根组件无parent 所以根组件会获取vnode.appCOntext 
+	// 根组件无parent 所以根组件会获取vnode.appContext 
 	// 因为上一步已经在根组件上将全局context赋值给了根组件的appContext属性， 所以这时候有值
 
 	instance = { /**组件实例*/}
