@@ -27,7 +27,7 @@
 │      KeepAlive + CacheManager
 │
 ├── 应用级状态
-│      Pinia
+│      Pinia/
 │
 ├── 会话级状态
 │      sessionStorage
