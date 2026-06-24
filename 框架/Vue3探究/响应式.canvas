@@ -1,7 +1,6 @@
 {
 	"nodes":[
 		{"id":"ca4e84b410dc2321","type":"group","x":-740,"y":-500,"width":1840,"height":840,"label":"响应式数据"},
-		{"id":"d7d39f8ca2a6587a","x":-49,"y":838,"width":250,"height":60,"type":"text","text":""},
 		{"id":"9fe221ab87fa664b","type":"text","text":"ref","x":-340,"y":-200,"width":250,"height":60},
 		{"id":"ef50af1a68c852f2","type":"text","text":"computed","x":-340,"y":-100,"width":250,"height":60},
 		{"id":"f13119bc6071372d","type":"text","text":"readonly","x":-340,"y":0,"width":250,"height":60},
@@ -15,7 +14,9 @@
 		{"id":"6a9a898e209970c1","x":550,"y":-100,"width":140,"height":60,"type":"text","text":"set"},
 		{"id":"cce0b89a477d9a01","type":"text","text":"遍历","x":550,"y":-30,"width":140,"height":60},
 		{"id":"ddc097bacb0d2662","type":"text","text":"track","x":880,"y":-160,"width":140,"height":60},
-		{"id":"5767b5f0f646bf54","x":880,"y":-60,"width":140,"height":60,"type":"text","text":"trigger"}
+		{"id":"5767b5f0f646bf54","x":880,"y":-60,"width":140,"height":60,"type":"text","text":"trigger"},
+		{"id":"d7d39f8ca2a6587a","x":620,"y":808,"width":250,"height":60,"type":"text","text":""},
+		{"id":"41ccb45e24819f81","x":-180,"y":778,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"44d67027e2c53ec2","fromNode":"38cdb2bd9eb0783f","fromSide":"left","toNode":"4e54721a4b80303c","toSide":"right"},
