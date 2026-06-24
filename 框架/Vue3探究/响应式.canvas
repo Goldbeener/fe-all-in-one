@@ -1,28 +1,28 @@
 {
 	"nodes":[
 		{"id":"ca4e84b410dc2321","type":"group","x":-740,"y":-500,"width":1840,"height":840,"label":"响应式数据"},
-		{"id":"f612c75c4787c584","x":-1040,"y":788,"width":1930,"height":512,"type":"group","label":"副作用函数"},
+		{"id":"f612c75c4787c584","type":"group","x":-1040,"y":788,"width":1930,"height":512,"label":"副作用函数"},
 		{"id":"9fe221ab87fa664b","type":"text","text":"ref","x":-340,"y":-200,"width":250,"height":60},
 		{"id":"38cdb2bd9eb0783f","type":"text","text":"Proxy","x":320,"y":-100,"width":160,"height":60},
 		{"id":"4e54721a4b80303c","type":"text","text":"reactive","x":60,"y":-100,"width":180,"height":60},
-		{"id":"d8415dfb3b69ce5f","x":620,"y":-480,"width":400,"height":240,"color":"2","type":"text","text":"**响应式数据包装/改造**\n本质就是通过Proxy拦截数据的各种读写操作，\n+ 在数据读取时，添加依赖\n+ 在数据更新时，通知依赖更新\n"},
-		{"id":"9aadf3d8cc0d39c5","x":550,"y":-170,"width":140,"height":60,"type":"text","text":"get"},
-		{"id":"6a9a898e209970c1","x":550,"y":-100,"width":140,"height":60,"type":"text","text":"set"},
+		{"id":"d8415dfb3b69ce5f","type":"text","text":"**响应式数据包装/改造**\n本质就是通过Proxy拦截数据的各种读写操作，\n+ 在数据读取时，添加依赖\n+ 在数据更新时，通知依赖更新\n","x":620,"y":-480,"width":400,"height":240,"color":"2"},
+		{"id":"9aadf3d8cc0d39c5","type":"text","text":"get","x":550,"y":-170,"width":140,"height":60},
+		{"id":"6a9a898e209970c1","type":"text","text":"set","x":550,"y":-100,"width":140,"height":60},
 		{"id":"cce0b89a477d9a01","type":"text","text":"遍历","x":550,"y":-30,"width":140,"height":60},
 		{"id":"ddc097bacb0d2662","type":"text","text":"track","x":880,"y":-160,"width":140,"height":60},
-		{"id":"5767b5f0f646bf54","x":880,"y":-60,"width":140,"height":60,"type":"text","text":"trigger"},
+		{"id":"5767b5f0f646bf54","type":"text","text":"trigger","x":880,"y":-60,"width":140,"height":60},
 		{"id":"f13119bc6071372d","type":"text","text":"readonly","x":-340,"y":-90,"width":250,"height":60},
 		{"id":"c39539f23eecadaa","type":"text","text":"shallowRef","x":-680,"y":-200,"width":250,"height":60},
 		{"id":"98a3a140ce702d10","type":"text","text":"shallowReadonly","x":-680,"y":-90,"width":250,"height":60},
 		{"id":"96b35dbc980d3d2c","type":"text","text":"shallowReactive","x":-680,"y":30,"width":250,"height":60},
-		{"id":"d7d39f8ca2a6587a","x":620,"y":1000,"width":250,"height":60,"type":"text","text":"ReactiveEffect"},
-		{"id":"41ccb45e24819f81","x":240,"y":1000,"width":240,"height":60,"type":"text","text":"effect"},
-		{"id":"7c17fc9c32387a95","type":"text","text":"computed","x":-320,"y":910,"width":240,"height":60},
-		{"id":"dd917ac558380007","type":"text","text":"component-render","x":-320,"y":1080,"width":240,"height":60},
-		{"id":"522423db1f0d05f4","type":"text","text":"watch","x":-320,"y":1000,"width":240,"height":60},
-		{"id":"42f1f594d459c0bc","x":-820,"y":1095,"width":250,"height":60,"type":"text","text":"watchPostEffect"},
-		{"id":"5037d5fcb7d91b3c","x":-820,"y":1000,"width":250,"height":60,"type":"text","text":"watchSyncEffect"},
-		{"id":"6f12ef5539bb3988","type":"text","text":"watchEffect","x":-820,"y":910,"width":240,"height":60}
+		{"id":"6f12ef5539bb3988","type":"text","text":"watchEffect","x":-620,"y":1000,"width":240,"height":60},
+		{"id":"5037d5fcb7d91b3c","type":"text","text":"watchSyncEffect","x":-945,"y":940,"width":250,"height":60},
+		{"id":"42f1f594d459c0bc","type":"text","text":"watchPostEffect","x":-945,"y":1060,"width":250,"height":60},
+		{"id":"7c17fc9c32387a95","type":"text","text":"computed","x":-220,"y":920,"width":240,"height":60},
+		{"id":"522423db1f0d05f4","type":"text","text":"watch","x":-220,"y":1010,"width":240,"height":60},
+		{"id":"dd917ac558380007","type":"text","text":"component-render","x":-220,"y":1090,"width":240,"height":60},
+		{"id":"41ccb45e24819f81","type":"text","text":"effect","x":-220,"y":810,"width":240,"height":60},
+		{"id":"d7d39f8ca2a6587a","type":"text","text":"ReactiveEffect","x":320,"y":980,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"44d67027e2c53ec2","fromNode":"38cdb2bd9eb0783f","fromSide":"left","toNode":"4e54721a4b80303c","toSide":"right"},
@@ -31,6 +31,12 @@
 		{"id":"502fa7353f264cf0","fromNode":"9fe221ab87fa664b","fromSide":"left","toNode":"c39539f23eecadaa","toSide":"right"},
 		{"id":"cdc77ec0ab872655","fromNode":"f13119bc6071372d","fromSide":"left","toNode":"98a3a140ce702d10","toSide":"right"},
 		{"id":"4a9ea5065fae66cb","fromNode":"4e54721a4b80303c","fromSide":"left","toNode":"96b35dbc980d3d2c","toSide":"right"},
-		{"id":"46df23d1c338eff8","fromNode":"d7d39f8ca2a6587a","fromSide":"left","toNode":"41ccb45e24819f81","toSide":"right"}
+		{"id":"46df23d1c338eff8","fromNode":"d7d39f8ca2a6587a","fromSide":"left","toNode":"41ccb45e24819f81","toSide":"right"},
+		{"id":"71d587f067551abd","fromNode":"d7d39f8ca2a6587a","fromSide":"left","toNode":"dd917ac558380007","toSide":"right"},
+		{"id":"692580a96364c97d","fromNode":"522423db1f0d05f4","fromSide":"left","toNode":"6f12ef5539bb3988","toSide":"right"},
+		{"id":"280623717fa79755","fromNode":"6f12ef5539bb3988","fromSide":"left","toNode":"5037d5fcb7d91b3c","toSide":"right"},
+		{"id":"f23e7742f72f7df3","fromNode":"6f12ef5539bb3988","fromSide":"left","toNode":"42f1f594d459c0bc","toSide":"right"},
+		{"id":"3eedd03fd9f6cd86","fromNode":"d7d39f8ca2a6587a","fromSide":"left","toNode":"7c17fc9c32387a95","toSide":"right"},
+		{"id":"d4345d3584b77b39","fromNode":"d7d39f8ca2a6587a","fromSide":"left","toNode":"522423db1f0d05f4","toSide":"right"}
 	]
 }
