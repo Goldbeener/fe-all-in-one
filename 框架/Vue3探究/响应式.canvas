@@ -1,15 +1,7 @@
 {
 	"nodes":[
 		{"id":"ca4e84b410dc2321","type":"group","x":-740,"y":-500,"width":1840,"height":840,"label":"响应式数据"},
-		{"id":"f612c75c4787c584","type":"group","x":-1040,"y":788,"width":1930,"height":512,"label":"副作用函数"},
-		{"id":"6f12ef5539bb3988","type":"text","text":"watchEffect","x":-620,"y":1000,"width":240,"height":60},
-		{"id":"7c17fc9c32387a95","type":"text","text":"computed","x":-220,"y":920,"width":240,"height":60},
-		{"id":"522423db1f0d05f4","type":"text","text":"watch","x":-220,"y":1010,"width":240,"height":60},
-		{"id":"dd917ac558380007","type":"text","text":"component-render","x":-220,"y":1090,"width":240,"height":60},
-		{"id":"41ccb45e24819f81","type":"text","text":"effect","x":-220,"y":810,"width":240,"height":60},
-		{"id":"d7d39f8ca2a6587a","type":"text","text":"ReactiveEffect","x":320,"y":980,"width":250,"height":60},
-		{"id":"5037d5fcb7d91b3c","type":"text","text":"watchSyncEffect","x":-945,"y":940,"width":250,"height":60},
-		{"id":"42f1f594d459c0bc","type":"text","text":"watchPostEffect","x":-945,"y":1060,"width":250,"height":60},
+		{"id":"f612c75c4787c584","type":"group","x":-740,"y":700,"width":1840,"height":740,"label":"副作用函数"},
 		{"id":"96b35dbc980d3d2c","type":"text","text":"shallowReactive","x":-680,"y":30,"width":250,"height":60},
 		{"id":"cce0b89a477d9a01","type":"text","text":"遍历","x":550,"y":-30,"width":140,"height":60},
 		{"id":"f13119bc6071372d","type":"text","text":"readonly","x":-340,"y":-90,"width":250,"height":60},
@@ -23,8 +15,16 @@
 		{"id":"d8415dfb3b69ce5f","type":"text","text":"**响应式数据包装/改造**\n本质就是通过Proxy拦截数据的各种读写操作，\n+ 在数据读取时，添加依赖\n+ 在数据更新时，通知依赖更新\n","x":620,"y":-480,"width":400,"height":240,"color":"2"},
 		{"id":"ddc097bacb0d2662","type":"text","text":"track","x":880,"y":-160,"width":140,"height":60},
 		{"id":"5767b5f0f646bf54","type":"text","text":"trigger","x":880,"y":-60,"width":140,"height":60},
-		{"id":"bc4d8fe2c7b0030b","x":570,"y":810,"width":270,"height":160,"color":"3","type":"text","text":"本质是包装函数，使得函数称为一段可被依赖收集、重新触发的副作用函数"},
-		{"id":"53b5ac5fd6761f38","x":1521,"y":416,"width":250,"height":60,"type":"text","text":"Dep"}
+		{"id":"53b5ac5fd6761f38","x":1521,"y":416,"width":250,"height":60,"type":"text","text":"Dep"},
+		{"id":"d7d39f8ca2a6587a","type":"text","text":"ReactiveEffect","x":500,"y":1010,"width":250,"height":60},
+		{"id":"41ccb45e24819f81","type":"text","text":"effect","x":-20,"y":840,"width":240,"height":60},
+		{"id":"7c17fc9c32387a95","type":"text","text":"computed","x":-20,"y":950,"width":240,"height":60},
+		{"id":"522423db1f0d05f4","type":"text","text":"watch","x":-20,"y":1040,"width":240,"height":60},
+		{"id":"dd917ac558380007","type":"text","text":"component-render","x":-20,"y":1120,"width":240,"height":60},
+		{"id":"5037d5fcb7d91b3c","type":"text","text":"watchSyncEffect","x":-680,"y":950,"width":250,"height":60},
+		{"id":"42f1f594d459c0bc","type":"text","text":"watchPostEffect","x":-680,"y":1070,"width":250,"height":60},
+		{"id":"6f12ef5539bb3988","type":"text","text":"watchEffect","x":-355,"y":1010,"width":240,"height":60},
+		{"id":"bc4d8fe2c7b0030b","x":685,"y":740,"width":335,"height":180,"color":"3","type":"text","text":"本质是包装函数，使得函数称为一段可被依赖收集、重新触发的副作用函数"}
 	],
 	"edges":[
 		{"id":"44d67027e2c53ec2","fromNode":"38cdb2bd9eb0783f","fromSide":"left","toNode":"4e54721a4b80303c","toSide":"right"},
@@ -44,6 +44,7 @@
 		{"id":"fa2d82d0f2f5767b","fromNode":"6a9a898e209970c1","fromSide":"right","toNode":"5767b5f0f646bf54","toSide":"left"},
 		{"id":"43d0e94c99d2b57c","fromNode":"5767b5f0f646bf54","fromSide":"right","toNode":"53b5ac5fd6761f38","toSide":"left"},
 		{"id":"ff7cae61173f0031","fromNode":"ddc097bacb0d2662","fromSide":"right","toNode":"53b5ac5fd6761f38","toSide":"left"},
-		{"id":"86dcd039b8049c99","fromNode":"53b5ac5fd6761f38","fromSide":"bottom","toNode":"f612c75c4787c584","toSide":"right"}
+		{"id":"86dcd039b8049c99","fromNode":"53b5ac5fd6761f38","fromSide":"bottom","toNode":"f612c75c4787c584","toSide":"right"},
+		{"id":"26ab284ce5f07e75","fromNode":"38cdb2bd9eb0783f","fromSide":"right","toNode":"6a9a898e209970c1","toSide":"left"}
 	]
 }
