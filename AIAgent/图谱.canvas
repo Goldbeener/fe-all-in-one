@@ -15,7 +15,41 @@
 		{"id":"3934b69ff98c8a07","x":-160,"y":59,"width":277,"height":60,"type":"text","text":"向量化与语义检索"},
 		{"id":"a3cd7861e70caf75","x":-153,"y":149,"width":250,"height":60,"type":"text","text":"情绪状态机"},
 		{"id":"3a43caba4469808a","x":-153,"y":240,"width":277,"height":60,"type":"text","text":"混合记忆架构"},
-		{"id":"c49013c34abe9131","x":-517,"y":210,"width":277,"height":60,"type":"text","text":"Streaming"}
+		{"id":"c49013c34abe9131","x":-517,"y":210,"width":277,"height":60,"type":"text","text":"Streaming"},
+		{"id":"890d846af8d1176a","x":-747,"y":979,"width":250,"height":60,"type":"text","text":"澄清问题/补全信息"},
+		{"id":"0ceeb2681d86b313","x":-739,"y":1094,"width":250,"height":60,"type":"text","text":"制定计划"},
+		{"id":"52d015fd078d64b1","x":-739,"y":1197,"width":250,"height":60,"type":"text","text":"执行计划"},
+		{"id":"6137de297615c0dc","x":-766,"y":1287,"width":250,"height":60,"type":"text","text":"节点编排"},
+		{"id":"7e55ce59e8b61b91","x":-814,"y":1388,"width":250,"height":60,"type":"text","text":"并行编排"},
+		{"id":"911adea03da62fde","x":-659,"y":1471,"width":250,"height":60,"type":"text","text":"子图"},
+		{"id":"3be9b70fee2b5776","x":-703,"y":1546,"width":250,"height":60,"type":"text","text":"子Agent"},
+		{"id":"69649c4e9edba711","x":-721,"y":1616,"width":250,"height":60,"type":"text","text":"多Agent"},
+		{"id":"15319f466506a289","x":-1122,"y":1275,"width":250,"height":60,"type":"text","text":"Agent执行的步骤？"},
+		{"id":"b0aed0b93e088c49","x":-239,"y":1163,"width":250,"height":60,"type":"text","text":"LangChain"},
+		{"id":"5d0b44548dc0d934","x":53,"y":968,"width":250,"height":60,"type":"text","text":"参数配置"},
+		{"id":"e12f0bbd5c2157d4","x":45,"y":1067,"width":250,"height":60,"type":"text","text":"Messages 信息组装？"},
+		{"id":"63423baa633ce4b3","x":53,"y":1163,"width":250,"height":60,"type":"text","text":"UI数据转换"},
+		{"id":"ba678b05c061576d","x":62,"y":1264,"width":250,"height":60,"type":"text","text":"Prompt Template"},
+		{"id":"10e9b173b243fc98","x":-10,"y":1348,"width":250,"height":60,"type":"text","text":"Few-Shot 和 动态Prompt"},
+		{"id":"9de358b598e09d94","x":43,"y":1443,"width":250,"height":60,"type":"text","text":"Output Parser"},
+		{"id":"83495918fedc95f3","x":10,"y":1564,"width":250,"height":60,"type":"text","text":"LCEL"},
+		{"id":"2ebc0606315f4d21","x":66,"y":1668,"width":250,"height":60,"type":"text","text":"Memory"},
+		{"id":"ec19e47279e46e7e","x":-47,"y":1749,"width":250,"height":60,"type":"text","text":"记忆持久化与混合策略"},
+		{"id":"55101e445403a39c","x":-9,"y":1848,"width":250,"height":60,"color":"3","type":"text","text":"Document Loader"},
+		{"id":"f22bab69f01f3c6e","x":11,"y":1960,"width":250,"height":60,"type":"text","text":"向量存储"},
+		{"id":"e892bddfe192b312","x":-37,"y":2123,"width":250,"height":60,"type":"text","text":"Tool"},
+		{"id":"17db8ed2d366738e","x":-60,"y":2249,"width":250,"height":60,"type":"text","text":"单Agent 多Tool"},
+		{"id":"efbff8d26119c1c2","x":-108,"y":2315,"width":250,"height":60,"type":"text","text":"Middleware"},
+		{"id":"14fc666d08eb4f88","x":-72,"y":2400,"width":250,"height":60,"type":"text","text":"Tracing"},
+		{"id":"deb4c747fa197615","x":142,"y":2040,"width":250,"height":60,"type":"text","text":"RAG"},
+		{"id":"70a9987c5750b285","x":621,"y":1785,"width":250,"height":60,"type":"text","text":"索引与查询链路"},
+		{"id":"499377e29ea7e7fc","x":621,"y":1878,"width":250,"height":60,"type":"text","text":"文档加载、解析、清理、切块"},
+		{"id":"3864b0a7d4842c35","x":607,"y":1953,"width":250,"height":60,"type":"text","text":"Embedding和向量检索"},
+		{"id":"4b0da01c9c6276da","x":551,"y":2060,"width":250,"height":60,"type":"text","text":"手写最小RAG"},
+		{"id":"061958b1f545e57a","x":580,"y":2134,"width":250,"height":60,"type":"text","text":"LangChain和LangGraph RAG"},
+		{"id":"90708b2cd67c99cb","x":560,"y":2219,"width":250,"height":60,"type":"text","text":"提高检索精度"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"4b75db7862432033","fromNode":"deb4c747fa197615","fromSide":"right","toNode":"70a9987c5750b285","toSide":"left"}
+	]
 }
