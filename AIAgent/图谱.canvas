@@ -1,6 +1,21 @@
 {
 	"nodes":[
-		{"id":"ca1bace6d33c6d0e","x":-460,"y":-133,"width":340,"height":213,"type":"text","text":"【computed】\n是什么\n解决什么问题\n和谁有关"}
+		{"id":"ca1bace6d33c6d0e","type":"text","text":"【computed】\n是什么\n解决什么问题\n和谁有关","x":-880,"y":-340,"width":340,"height":213},
+		{"id":"d353799611682ba0","x":-880,"y":0,"width":250,"height":60,"type":"text","text":"什么是AI Agent开发"},
+		{"id":"16e424763bc70e17","x":-517,"y":-44,"width":277,"height":60,"type":"text","text":"内存调度"},
+		{"id":"80e5aa59f9f04850","x":160,"y":310,"width":250,"height":60,"type":"text","text":"可观测性"},
+		{"id":"2f46051894b09604","x":160,"y":398,"width":250,"height":60,"type":"text","text":"LangSmith Langfuse"},
+		{"id":"ed353825ec4aa3bd","x":160,"y":474,"width":250,"height":60,"type":"text","text":"Tracing"},
+		{"id":"e7c8a66ecfb775b5","x":160,"y":565,"width":250,"height":60,"type":"text","text":"指标体系/线上排障"},
+		{"id":"af825f58cf4a7ab1","x":160,"y":647,"width":250,"height":60,"type":"text","text":"影子模式/灰度验证"},
+		{"id":"9b99e66ffcfcb15a","x":-200,"y":428,"width":250,"height":60,"type":"text","text":"部署，边缘/集群部署"},
+		{"id":"32b37636d55416f8","x":-200,"y":505,"width":250,"height":60,"type":"text","text":"Hono.js & Fast API"},
+		{"id":"3cf0c58512bc1bfa","x":-517,"y":31,"width":277,"height":58,"type":"text","text":"LangChain/LangGraph"},
+		{"id":"f7945bfd696816e0","x":-517,"y":119,"width":277,"height":60,"type":"text","text":"Prompt工程"},
+		{"id":"3934b69ff98c8a07","x":-160,"y":59,"width":277,"height":60,"type":"text","text":"向量化与语义检索"},
+		{"id":"a3cd7861e70caf75","x":-153,"y":149,"width":250,"height":60,"type":"text","text":"情绪状态机"},
+		{"id":"3a43caba4469808a","x":-153,"y":240,"width":277,"height":60,"type":"text","text":"混合记忆架构"},
+		{"id":"c49013c34abe9131","x":-517,"y":210,"width":277,"height":60,"type":"text","text":"Streaming"}
 	],
 	"edges":[]
 }
