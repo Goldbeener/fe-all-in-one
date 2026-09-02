@@ -3,9 +3,6 @@
 		{"id":"d353799611682ba0","type":"text","text":"什么是AI Agent开发","x":-880,"y":0,"width":250,"height":60},
 		{"id":"16e424763bc70e17","type":"text","text":"内存调度","x":-517,"y":-127,"width":277,"height":60},
 		{"id":"3cf0c58512bc1bfa","type":"text","text":"LangChain/LangGraph","x":-517,"y":-29,"width":277,"height":58},
-		{"id":"f7945bfd696816e0","type":"text","text":"Prompt工程","x":-517,"y":89,"width":277,"height":60},
-		{"id":"3934b69ff98c8a07","type":"text","text":"向量化与语义检索","x":-153,"y":30,"width":277,"height":60},
-		{"id":"a3cd7861e70caf75","type":"text","text":"情绪状态机","x":-153,"y":119,"width":277,"height":60},
 		{"id":"3a43caba4469808a","type":"text","text":"混合记忆架构","x":-153,"y":210,"width":277,"height":60},
 		{"id":"c49013c34abe9131","type":"text","text":"Streaming","x":-517,"y":240,"width":277,"height":60},
 		{"id":"9b99e66ffcfcb15a","type":"text","text":"部署，边缘/集群部署","x":-517,"y":361,"width":277,"height":60},
@@ -89,12 +86,25 @@
 		{"id":"046e44005791ca02","type":"text","text":"向量化索引","x":685,"y":2011,"width":250,"height":60},
 		{"id":"e0547e5265f35c97","type":"text","text":"上下文组装","x":685,"y":2201,"width":250,"height":60},
 		{"id":"bde9ade1d4b22c0d","type":"text","text":"模型生成","x":685,"y":2300,"width":250,"height":60},
-		{"id":"c97573f44da63e4e","type":"text","text":"记忆更新","x":685,"y":2401,"width":250,"height":60}
+		{"id":"c97573f44da63e4e","type":"text","text":"记忆更新","x":685,"y":2401,"width":250,"height":60},
+		{"id":"f360e455eccac338","type":"text","text":"LangChain","x":-80,"y":-187,"width":250,"height":60},
+		{"id":"39be9c105ecc166b","type":"text","text":"LangGraph","x":-80,"y":-97,"width":250,"height":60},
+		{"id":"bf922cb9939e37a9","x":296,"y":-240,"width":250,"height":102,"type":"text","text":"按照开发者代码内置固定流程执行"},
+		{"id":"ec094801d6169e04","x":332,"y":-84,"width":250,"height":84,"type":"text","text":"根据实际输入动态编排执行流程"},
+		{"id":"f7945bfd696816e0","type":"text","text":"Prompt工程","x":-517,"y":119,"width":277,"height":60},
+		{"id":"a3cd7861e70caf75","type":"text","text":"情绪状态机","x":-153,"y":140,"width":277,"height":60},
+		{"id":"3934b69ff98c8a07","type":"text","text":"向量化与语义检索","x":-153,"y":59,"width":277,"height":60},
+		{"id":"ec6636a4e62aa519","x":-153,"y":-20,"width":250,"height":60,"type":"text","text":"关键词搜索"}
 	],
 	"edges":[
 		{"id":"4b75db7862432033","fromNode":"deb4c747fa197615","fromSide":"right","toNode":"70a9987c5750b285","toSide":"left"},
 		{"id":"f5b038feae067a4d","fromNode":"f7945bfd696816e0","fromSide":"right","toNode":"3934b69ff98c8a07","toSide":"left"},
 		{"id":"0c7d007a682f4443","fromNode":"f7945bfd696816e0","fromSide":"right","toNode":"a3cd7861e70caf75","toSide":"left"},
-		{"id":"2f4e58d5c9f2956c","fromNode":"f7945bfd696816e0","fromSide":"right","toNode":"3a43caba4469808a","toSide":"left"}
+		{"id":"2f4e58d5c9f2956c","fromNode":"f7945bfd696816e0","fromSide":"right","toNode":"3a43caba4469808a","toSide":"left"},
+		{"id":"a7f46a98c7216d65","fromNode":"3cf0c58512bc1bfa","fromSide":"right","toNode":"f360e455eccac338","toSide":"left"},
+		{"id":"25c646fd6dbe40e9","fromNode":"3cf0c58512bc1bfa","fromSide":"right","toNode":"39be9c105ecc166b","toSide":"left"},
+		{"id":"ab5d476b900abc19","fromNode":"f360e455eccac338","fromSide":"right","toNode":"bf922cb9939e37a9","toSide":"left"},
+		{"id":"e1947a9488cfe857","fromNode":"39be9c105ecc166b","fromSide":"right","toNode":"ec094801d6169e04","toSide":"left"},
+		{"id":"7a40daf187af2e07","fromNode":"f7945bfd696816e0","fromSide":"right","toNode":"ec6636a4e62aa519","toSide":"left"}
 	]
 }
