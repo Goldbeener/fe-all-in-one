@@ -99,10 +99,17 @@
 		{"id":"ae6f437e39be52e2","type":"text","text":"intent","x":-1672,"y":989,"width":250,"height":60},
 		{"id":"f05cf4900f9e73c5","type":"text","text":"confidence","x":-1672,"y":1208,"width":250,"height":60},
 		{"id":"b52efe500098f453","type":"text","text":"意图识别","x":-2040,"y":1109,"width":250,"height":69},
-		{"id":"76fb1db15d8a1eb4","x":-1402,"y":1088,"width":250,"height":60,"type":"text","text":"流程终结依据"},
-		{"id":"c403e17fbdd663f2","x":-1402,"y":989,"width":250,"height":60,"type":"text","text":"流程/路由选择依据"},
-		{"id":"5d99c5a36c3ba828","x":-1402,"y":1213,"width":250,"height":60,"type":"text","text":"执行策略依据"},
-		{"id":"861ec0685691ff8f","x":-1973,"y":300,"width":613,"height":426,"type":"text","text":"这些路由是以什么形式存在的？ 不同的流程分支"}
+		{"id":"76fb1db15d8a1eb4","type":"text","text":"流程终结依据","x":-1402,"y":1088,"width":250,"height":60},
+		{"id":"c403e17fbdd663f2","type":"text","text":"流程/路由选择依据","x":-1402,"y":989,"width":250,"height":60},
+		{"id":"5d99c5a36c3ba828","type":"text","text":"执行策略依据","x":-1402,"y":1213,"width":250,"height":60},
+		{"id":"861ec0685691ff8f","type":"text","text":"这些路由是以什么形式存在的？ 不同的流程分支","x":-1973,"y":300,"width":613,"height":426},
+		{"id":"9e7c17bcc3f7c48b","type":"text","text":"制定计划","x":-2044,"y":1666,"width":250,"height":60},
+		{"id":"1a80d651fb49f35a","type":"text","text":"澄清问题\n","x":-2044,"y":1315,"width":250,"height":60},
+		{"id":"8c959530f77d2bf0","type":"text","text":"补全信息","x":-2040,"y":1464,"width":250,"height":60},
+		{"id":"3e718ebb2e1b28c9","type":"text","text":"追问用户","x":-1652,"y":1405,"width":250,"height":60},
+		{"id":"23898ddd005b0998","x":-1652,"y":1524,"width":250,"height":60,"type":"text","text":"工具获取"},
+		{"id":"b47f143275e732c9","x":-1320,"y":1399,"width":250,"height":60,"type":"text","text":"关键信息追问，避免过度追问"},
+		{"id":"f41968874f974314","x":-1295,"y":1537,"width":250,"height":129,"type":"text","text":"客观信息获取\n+ 天气\n+ 车票"}
 	],
 	"edges":[
 		{"id":"4b75db7862432033","fromNode":"deb4c747fa197615","fromSide":"right","toNode":"70a9987c5750b285","toSide":"left"},
@@ -116,6 +123,13 @@
 		{"id":"7a40daf187af2e07","fromNode":"f7945bfd696816e0","fromSide":"right","toNode":"ec6636a4e62aa519","toSide":"left"},
 		{"id":"7f5d21e2d0453672","fromNode":"b52efe500098f453","fromSide":"right","toNode":"ae6f437e39be52e2","toSide":"left"},
 		{"id":"a48c9f3d55d595ad","fromNode":"b52efe500098f453","fromSide":"right","toNode":"f063a4a4de379041","toSide":"left"},
-		{"id":"93d535b0f6c3f825","fromNode":"b52efe500098f453","fromSide":"right","toNode":"f05cf4900f9e73c5","toSide":"left"}
+		{"id":"93d535b0f6c3f825","fromNode":"b52efe500098f453","fromSide":"right","toNode":"f05cf4900f9e73c5","toSide":"left"},
+		{"id":"8f482e262e162b9b","fromNode":"b52efe500098f453","fromSide":"bottom","toNode":"1a80d651fb49f35a","toSide":"top"},
+		{"id":"4a181ca82878e8b9","fromNode":"1a80d651fb49f35a","fromSide":"bottom","toNode":"8c959530f77d2bf0","toSide":"top"},
+		{"id":"d97928fbae0bbf0e","fromNode":"8c959530f77d2bf0","fromSide":"bottom","toNode":"9e7c17bcc3f7c48b","toSide":"top"},
+		{"id":"fe8d77acff784e54","fromNode":"8c959530f77d2bf0","fromSide":"right","toNode":"3e718ebb2e1b28c9","toSide":"left"},
+		{"id":"632081b55b5a6c3c","fromNode":"8c959530f77d2bf0","fromSide":"right","toNode":"23898ddd005b0998","toSide":"left"},
+		{"id":"d17159353de0f823","fromNode":"3e718ebb2e1b28c9","fromSide":"right","toNode":"b47f143275e732c9","toSide":"left"},
+		{"id":"1f5fd2d3bdd4c1e3","fromNode":"23898ddd005b0998","fromSide":"right","toNode":"f41968874f974314","toSide":"left"}
 	]
 }
