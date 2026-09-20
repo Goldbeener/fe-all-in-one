@@ -110,11 +110,14 @@
 		{"id":"23898ddd005b0998","type":"text","text":"工具获取","x":-1652,"y":1524,"width":250,"height":60},
 		{"id":"b47f143275e732c9","type":"text","text":"关键信息追问，避免过度追问","x":-1320,"y":1399,"width":250,"height":60},
 		{"id":"f41968874f974314","type":"text","text":"客观信息获取\n+ 天气\n+ 车票","x":-1295,"y":1537,"width":250,"height":129},
-		{"id":"68046900c64e2c20","type":"text","text":"执行计划","x":-2309,"y":1867,"width":250,"height":60},
 		{"id":"244f4c8b4983bd71","type":"text","text":"依赖关系","x":-2574,"y":1584,"width":250,"height":60},
 		{"id":"baff785b180a420f","type":"text","text":"预期输出\n","x":-2574,"y":1652,"width":250,"height":60},
 		{"id":"03b0960edc8fd950","type":"text","text":"完成标准","x":-2574,"y":1726,"width":250,"height":60},
-		{"id":"9287ec9bae1ba334","type":"text","text":"步骤","x":-2574,"y":1521,"width":250,"height":60}
+		{"id":"9287ec9bae1ba334","type":"text","text":"步骤","x":-2574,"y":1521,"width":250,"height":60},
+		{"id":"68046900c64e2c20","type":"text","text":"执行计划","x":-2330,"y":1914,"width":250,"height":60},
+		{"id":"a4d58d1c831067a6","type":"text","text":"读取计划","x":-2755,"y":1854,"width":250,"height":60},
+		{"id":"6934b091f5afd02d","type":"text","text":"中间状态\n- 数据分类，中间态的数据不对用户展示","x":-2755,"y":1944,"width":250,"height":145},
+		{"id":"51b2ad3d82b84830","type":"text","text":"状态回调\n- 分步执行状态监测，确定下一步该做什么","x":-2755,"y":2119,"width":250,"height":163}
 	],
 	"edges":[
 		{"id":"4b75db7862432033","fromNode":"deb4c747fa197615","fromSide":"right","toNode":"70a9987c5750b285","toSide":"left"},
@@ -140,6 +143,9 @@
 		{"id":"41e3de8515a1c2c9","fromNode":"9e7c17bcc3f7c48b","fromSide":"left","toNode":"244f4c8b4983bd71","toSide":"right"},
 		{"id":"8fb3087a87b154a7","fromNode":"9e7c17bcc3f7c48b","fromSide":"left","toNode":"baff785b180a420f","toSide":"right"},
 		{"id":"bf1a524d6d9cdeb2","fromNode":"9e7c17bcc3f7c48b","fromSide":"left","toNode":"03b0960edc8fd950","toSide":"right"},
-		{"id":"7e592e99e2e721eb","fromNode":"9e7c17bcc3f7c48b","fromSide":"bottom","toNode":"68046900c64e2c20","toSide":"top"}
+		{"id":"7e592e99e2e721eb","fromNode":"9e7c17bcc3f7c48b","fromSide":"bottom","toNode":"68046900c64e2c20","toSide":"top"},
+		{"id":"cd121da126824e43","fromNode":"68046900c64e2c20","fromSide":"left","toNode":"a4d58d1c831067a6","toSide":"right"},
+		{"id":"26ea43d6696981e2","fromNode":"68046900c64e2c20","fromSide":"left","toNode":"6934b091f5afd02d","toSide":"right"},
+		{"id":"438d53b239e3493a","fromNode":"68046900c64e2c20","fromSide":"left","toNode":"51b2ad3d82b84830","toSide":"right"}
 	]
 }
