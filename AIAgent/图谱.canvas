@@ -101,7 +101,8 @@
 		{"id":"b52efe500098f453","type":"text","text":"意图识别","x":-2040,"y":1109,"width":250,"height":69},
 		{"id":"76fb1db15d8a1eb4","x":-1402,"y":1088,"width":250,"height":60,"type":"text","text":"流程终结依据"},
 		{"id":"c403e17fbdd663f2","x":-1402,"y":989,"width":250,"height":60,"type":"text","text":"流程/路由选择依据"},
-		{"id":"5d99c5a36c3ba828","x":-1402,"y":1213,"width":250,"height":60,"type":"text","text":"执行策略依据"}
+		{"id":"5d99c5a36c3ba828","x":-1402,"y":1213,"width":250,"height":60,"type":"text","text":"执行策略依据"},
+		{"id":"861ec0685691ff8f","x":-1973,"y":300,"width":613,"height":426,"type":"text","text":"这些路由是以什么形式存在的？ 不同的流程分支"}
 	],
 	"edges":[
 		{"id":"4b75db7862432033","fromNode":"deb4c747fa197615","fromSide":"right","toNode":"70a9987c5750b285","toSide":"left"},
