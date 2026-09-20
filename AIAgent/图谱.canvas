@@ -89,12 +89,19 @@
 		{"id":"c97573f44da63e4e","type":"text","text":"记忆更新","x":685,"y":2401,"width":250,"height":60},
 		{"id":"f360e455eccac338","type":"text","text":"LangChain","x":-80,"y":-187,"width":250,"height":60},
 		{"id":"39be9c105ecc166b","type":"text","text":"LangGraph","x":-80,"y":-97,"width":250,"height":60},
-		{"id":"bf922cb9939e37a9","x":296,"y":-240,"width":250,"height":102,"type":"text","text":"按照开发者代码内置固定流程执行"},
-		{"id":"ec094801d6169e04","x":332,"y":-84,"width":250,"height":84,"type":"text","text":"根据实际输入动态编排执行流程"},
+		{"id":"bf922cb9939e37a9","type":"text","text":"按照开发者代码内置固定流程执行","x":296,"y":-240,"width":250,"height":102},
+		{"id":"ec094801d6169e04","type":"text","text":"根据实际输入动态编排执行流程","x":332,"y":-84,"width":250,"height":84},
 		{"id":"f7945bfd696816e0","type":"text","text":"Prompt工程","x":-517,"y":119,"width":277,"height":60},
 		{"id":"a3cd7861e70caf75","type":"text","text":"情绪状态机","x":-153,"y":140,"width":277,"height":60},
 		{"id":"3934b69ff98c8a07","type":"text","text":"向量化与语义检索","x":-153,"y":59,"width":277,"height":60},
-		{"id":"ec6636a4e62aa519","x":-153,"y":-20,"width":250,"height":60,"type":"text","text":"关键词搜索"}
+		{"id":"ec6636a4e62aa519","type":"text","text":"关键词搜索","x":-153,"y":-20,"width":250,"height":60},
+		{"id":"f063a4a4de379041","type":"text","text":"goal","x":-1672,"y":1088,"width":250,"height":60},
+		{"id":"ae6f437e39be52e2","type":"text","text":"intent","x":-1672,"y":989,"width":250,"height":60},
+		{"id":"f05cf4900f9e73c5","type":"text","text":"confidence","x":-1672,"y":1208,"width":250,"height":60},
+		{"id":"b52efe500098f453","type":"text","text":"意图识别","x":-2040,"y":1109,"width":250,"height":69},
+		{"id":"76fb1db15d8a1eb4","x":-1402,"y":1088,"width":250,"height":60,"type":"text","text":"流程终结依据"},
+		{"id":"c403e17fbdd663f2","x":-1402,"y":989,"width":250,"height":60,"type":"text","text":"流程/路由选择依据"},
+		{"id":"5d99c5a36c3ba828","x":-1402,"y":1213,"width":250,"height":60,"type":"text","text":"执行策略依据"}
 	],
 	"edges":[
 		{"id":"4b75db7862432033","fromNode":"deb4c747fa197615","fromSide":"right","toNode":"70a9987c5750b285","toSide":"left"},
@@ -105,6 +112,9 @@
 		{"id":"25c646fd6dbe40e9","fromNode":"3cf0c58512bc1bfa","fromSide":"right","toNode":"39be9c105ecc166b","toSide":"left"},
 		{"id":"ab5d476b900abc19","fromNode":"f360e455eccac338","fromSide":"right","toNode":"bf922cb9939e37a9","toSide":"left"},
 		{"id":"e1947a9488cfe857","fromNode":"39be9c105ecc166b","fromSide":"right","toNode":"ec094801d6169e04","toSide":"left"},
-		{"id":"7a40daf187af2e07","fromNode":"f7945bfd696816e0","fromSide":"right","toNode":"ec6636a4e62aa519","toSide":"left"}
+		{"id":"7a40daf187af2e07","fromNode":"f7945bfd696816e0","fromSide":"right","toNode":"ec6636a4e62aa519","toSide":"left"},
+		{"id":"7f5d21e2d0453672","fromNode":"b52efe500098f453","fromSide":"right","toNode":"ae6f437e39be52e2","toSide":"left"},
+		{"id":"a48c9f3d55d595ad","fromNode":"b52efe500098f453","fromSide":"right","toNode":"f063a4a4de379041","toSide":"left"},
+		{"id":"93d535b0f6c3f825","fromNode":"b52efe500098f453","fromSide":"right","toNode":"f05cf4900f9e73c5","toSide":"left"}
 	]
 }
